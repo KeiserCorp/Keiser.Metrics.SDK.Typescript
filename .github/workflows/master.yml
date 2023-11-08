@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
   release:
-    name: Release Dart SDK
+    name: Release Typescript SDK
     needs: version-check
     if: needs.version-check.outputs.changed == 'true'
     runs-on: ubuntu-latest
