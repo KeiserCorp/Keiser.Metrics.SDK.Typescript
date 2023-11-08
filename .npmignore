@@ -2,3 +2,4 @@ src
 docs
 rollup.config.mjs
 tsconfig.json
+.github
