@@ -349,7 +349,7 @@ Method | HTTP request | Description
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -418,7 +418,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -469,7 +469,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -529,7 +529,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -595,7 +595,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -643,7 +643,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -691,7 +691,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -748,7 +748,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -811,7 +811,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -859,7 +859,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -913,7 +913,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -964,7 +964,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1027,7 +1027,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1078,7 +1078,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1135,7 +1135,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1183,7 +1183,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1231,7 +1231,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1279,7 +1279,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1339,7 +1339,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1393,7 +1393,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1441,7 +1441,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1507,7 +1507,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1555,7 +1555,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1606,7 +1606,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1654,7 +1654,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1702,7 +1702,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1762,7 +1762,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1810,7 +1810,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1876,7 +1876,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1924,7 +1924,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -1981,7 +1981,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2041,7 +2041,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2089,7 +2089,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2134,7 +2134,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2179,7 +2179,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2224,7 +2224,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2269,7 +2269,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2314,7 +2314,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2362,7 +2362,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2422,7 +2422,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2470,7 +2470,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2527,7 +2527,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2587,7 +2587,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2638,7 +2638,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2689,7 +2689,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2743,7 +2743,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2812,7 +2812,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2866,7 +2866,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2917,7 +2917,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -2971,7 +2971,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3019,7 +3019,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3082,7 +3082,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3133,7 +3133,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3184,7 +3184,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3247,7 +3247,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3298,7 +3298,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3346,7 +3346,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3397,7 +3397,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3454,7 +3454,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3502,7 +3502,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3574,7 +3574,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3622,7 +3622,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3673,7 +3673,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3733,7 +3733,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3781,7 +3781,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3844,7 +3844,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3892,7 +3892,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3946,7 +3946,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -3994,7 +3994,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4057,7 +4057,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4105,7 +4105,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4159,7 +4159,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4207,7 +4207,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4255,7 +4255,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4315,7 +4315,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4363,7 +4363,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4414,7 +4414,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4459,7 +4459,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4516,7 +4516,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4561,7 +4561,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4609,7 +4609,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4657,7 +4657,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4723,7 +4723,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4771,7 +4771,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4822,7 +4822,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4867,7 +4867,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4912,7 +4912,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -4978,7 +4978,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5050,7 +5050,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5104,7 +5104,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5149,7 +5149,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5194,7 +5194,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5245,7 +5245,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5296,7 +5296,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5341,7 +5341,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5386,7 +5386,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5431,7 +5431,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5482,7 +5482,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5551,7 +5551,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5599,7 +5599,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5683,7 +5683,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5731,7 +5731,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5800,7 +5800,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5875,7 +5875,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5923,7 +5923,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -5998,7 +5998,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6046,7 +6046,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6094,7 +6094,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6151,7 +6151,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6211,7 +6211,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6277,7 +6277,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6325,7 +6325,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6373,7 +6373,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6427,7 +6427,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6481,7 +6481,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6547,7 +6547,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6598,7 +6598,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6649,7 +6649,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6703,7 +6703,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6754,7 +6754,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6823,7 +6823,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6874,7 +6874,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6925,7 +6925,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -6979,7 +6979,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7033,7 +7033,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7081,7 +7081,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7129,7 +7129,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7183,7 +7183,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7252,7 +7252,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7306,7 +7306,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7366,7 +7366,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7414,7 +7414,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7462,7 +7462,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7516,7 +7516,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7564,7 +7564,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7609,7 +7609,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7654,7 +7654,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7717,7 +7717,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7765,7 +7765,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7813,7 +7813,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7858,7 +7858,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7903,7 +7903,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -7963,7 +7963,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8017,7 +8017,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8065,7 +8065,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8134,7 +8134,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8182,7 +8182,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8230,7 +8230,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8278,7 +8278,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8329,7 +8329,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8395,7 +8395,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8443,7 +8443,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8491,7 +8491,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8551,7 +8551,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8602,7 +8602,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8671,7 +8671,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8725,7 +8725,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8776,7 +8776,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8830,7 +8830,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8887,7 +8887,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -8938,7 +8938,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9004,7 +9004,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9055,7 +9055,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9106,7 +9106,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9226,7 +9226,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9277,7 +9277,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9331,7 +9331,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9382,7 +9382,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9448,7 +9448,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9502,7 +9502,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9571,7 +9571,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9619,7 +9619,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9691,7 +9691,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9742,7 +9742,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9793,7 +9793,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9862,7 +9862,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9919,7 +9919,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -9973,7 +9973,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10030,7 +10030,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10105,7 +10105,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10156,7 +10156,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10225,7 +10225,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10273,7 +10273,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10327,7 +10327,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10381,7 +10381,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10432,7 +10432,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10489,7 +10489,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10552,7 +10552,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10603,7 +10603,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10678,7 +10678,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10729,7 +10729,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10780,7 +10780,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10846,7 +10846,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10897,7 +10897,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -10960,7 +10960,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11011,7 +11011,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11077,7 +11077,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11134,7 +11134,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11182,7 +11182,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11236,7 +11236,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11287,7 +11287,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11350,7 +11350,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11401,7 +11401,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11461,7 +11461,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11509,7 +11509,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11560,7 +11560,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11608,7 +11608,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11656,7 +11656,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11719,7 +11719,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11770,7 +11770,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11821,7 +11821,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11893,7 +11893,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -11950,7 +11950,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12007,7 +12007,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12067,7 +12067,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12142,7 +12142,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12193,7 +12193,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12250,7 +12250,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12319,7 +12319,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12376,7 +12376,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12427,7 +12427,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12478,7 +12478,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12544,7 +12544,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12595,7 +12595,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12661,7 +12661,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12712,7 +12712,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12775,7 +12775,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12826,7 +12826,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12898,7 +12898,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -12949,7 +12949,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13018,7 +13018,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13081,7 +13081,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13138,7 +13138,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13207,7 +13207,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13276,7 +13276,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13333,7 +13333,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13384,7 +13384,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13435,7 +13435,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13489,7 +13489,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13555,7 +13555,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13621,7 +13621,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13675,7 +13675,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13741,7 +13741,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13792,7 +13792,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13849,7 +13849,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13918,7 +13918,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -13981,7 +13981,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14038,7 +14038,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14089,7 +14089,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14155,7 +14155,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14206,7 +14206,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14263,7 +14263,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14332,7 +14332,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14395,7 +14395,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14452,7 +14452,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14509,7 +14509,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14578,7 +14578,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14647,7 +14647,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14704,7 +14704,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14755,7 +14755,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14812,7 +14812,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14881,7 +14881,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14932,7 +14932,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -14989,7 +14989,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15061,7 +15061,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15112,7 +15112,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15184,7 +15184,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15262,7 +15262,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15313,7 +15313,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15370,7 +15370,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15421,7 +15421,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15481,7 +15481,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15529,7 +15529,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15601,7 +15601,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15655,7 +15655,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15703,7 +15703,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15769,7 +15769,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15817,7 +15817,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15868,7 +15868,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15916,7 +15916,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -15976,7 +15976,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16042,7 +16042,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16090,7 +16090,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16162,7 +16162,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16210,7 +16210,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16273,7 +16273,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16378,7 +16378,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16435,7 +16435,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16486,7 +16486,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16540,7 +16540,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16591,7 +16591,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16660,7 +16660,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16711,7 +16711,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16762,7 +16762,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16819,7 +16819,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16885,7 +16885,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -16951,7 +16951,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17002,7 +17002,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17050,7 +17050,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17098,7 +17098,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17146,7 +17146,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17206,7 +17206,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17260,7 +17260,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17308,7 +17308,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17374,7 +17374,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17422,7 +17422,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17473,7 +17473,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17521,7 +17521,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17569,7 +17569,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17626,7 +17626,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17674,7 +17674,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17737,7 +17737,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17785,7 +17785,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17842,7 +17842,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17893,7 +17893,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -17956,7 +17956,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18007,7 +18007,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18058,7 +18058,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18118,7 +18118,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18169,7 +18169,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18223,7 +18223,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18277,7 +18277,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18325,7 +18325,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18376,7 +18376,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18424,7 +18424,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18472,7 +18472,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18520,7 +18520,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18568,7 +18568,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18616,7 +18616,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18676,7 +18676,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18727,7 +18727,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18778,7 +18778,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18829,7 +18829,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18895,7 +18895,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
@@ -18946,7 +18946,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsApi } from '@keiser/metrics-sdk';
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsApi();
