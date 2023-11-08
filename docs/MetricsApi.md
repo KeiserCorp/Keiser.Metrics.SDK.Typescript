@@ -408,7 +408,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500CreateUtilizationInstance**
 > a500CreateUtilizationInstance()
@@ -456,10 +456,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500GetUser**
 > A500GetUserResponse a500GetUser()
@@ -519,7 +519,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500Initialize**
 > StrengthMachineInitializeResponse a500Initialize()
@@ -585,7 +585,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500ShowMachineState**
 > A500MachineStateResponse a500ShowMachineState()
@@ -630,10 +630,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500SubscribeMachineState**
 > SubscriptionResponse a500SubscribeMachineState()
@@ -678,10 +678,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500UpdateMachine**
 > FacilityStrengthMachineResponse a500UpdateMachine()
@@ -738,7 +738,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500UpdateMachineState**
 > A500MachineStateResponse a500UpdateMachineState()
@@ -798,10 +798,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **a500UserLogin**
 > FacilityUserResponse a500UserLogin()
@@ -846,10 +846,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **applicationCreate**
 > ApplicationResponse applicationCreate()
@@ -900,10 +900,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **applicationDelete**
 > applicationDelete()
@@ -951,10 +951,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **applicationList**
 > ApplicationListResponse applicationList()
@@ -1014,10 +1014,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **applicationShow**
 > ApplicationResponse applicationShow()
@@ -1065,10 +1065,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **applicationUpdate**
 > ApplicationResponse applicationUpdate()
@@ -1122,10 +1122,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **authExchangeFulfillment**
 > UserResponse authExchangeFulfillment()
@@ -1173,7 +1173,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseCreate**
 > CardioExerciseResponse cardioExerciseCreate()
@@ -1218,10 +1218,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseDelete**
 > cardioExerciseDelete()
@@ -1266,10 +1266,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseList**
 > CardioExerciseListResponse cardioExerciseList()
@@ -1326,10 +1326,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseMuscleCreate**
 > CardioExerciseMuscleResponse cardioExerciseMuscleCreate()
@@ -1380,10 +1380,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseMuscleDelete**
 > cardioExerciseMuscleDelete()
@@ -1428,10 +1428,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseMuscleList**
 > CardioExerciseMuscleListResponse cardioExerciseMuscleList()
@@ -1494,10 +1494,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseMuscleShow**
 > CardioExerciseMuscleResponse cardioExerciseMuscleShow()
@@ -1542,10 +1542,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseMuscleUpdate**
 > CardioExerciseMuscleResponse cardioExerciseMuscleUpdate()
@@ -1593,10 +1593,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseShow**
 > CardioExerciseResponse cardioExerciseShow()
@@ -1641,10 +1641,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseUpdate**
 > CardioExerciseResponse cardioExerciseUpdate()
@@ -1689,10 +1689,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseVariantCreate**
 > CardioExerciseVariantResponse cardioExerciseVariantCreate()
@@ -1749,10 +1749,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseVariantDelete**
 > cardioExerciseVariantDelete()
@@ -1797,10 +1797,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseVariantList**
 > CardioExerciseVariantListResponse cardioExerciseVariantList()
@@ -1863,10 +1863,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseVariantShow**
 > CardioExerciseVariantResponse cardioExerciseVariantShow()
@@ -1911,10 +1911,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioExerciseVariantUpdate**
 > CardioExerciseVariantResponse cardioExerciseVariantUpdate()
@@ -1968,10 +1968,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioMachineList**
 > CardioMachineListResponse cardioMachineList()
@@ -2028,10 +2028,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **cardioMachineShow**
 > CardioMachineResponse cardioMachineShow()
@@ -2076,10 +2076,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreEndpoints**
 > EndpointsResponse coreEndpoints()
@@ -2124,7 +2124,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreErrors**
 > ErrorResponse coreErrors()
@@ -2169,7 +2169,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreHealth**
 > HealthResponse coreHealth()
@@ -2214,7 +2214,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreStatus**
 > StatusResponse coreStatus()
@@ -2259,7 +2259,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreTime**
 > TimeResponse coreTime()
@@ -2304,7 +2304,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **coreUnsubscribe**
 > coreUnsubscribe()
@@ -2349,10 +2349,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountCreate**
 > DevelopmentAccountResponse developmentAccountCreate()
@@ -2409,10 +2409,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountDelete**
 > developmentAccountDelete()
@@ -2457,10 +2457,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountList**
 > DevelopmentAccountListResponse developmentAccountList()
@@ -2514,10 +2514,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipList**
 > DevelopmentAccountRelationshipListResponse developmentAccountRelationshipList()
@@ -2574,10 +2574,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipRequestDelete**
 > developmentAccountRelationshipRequestDelete()
@@ -2625,10 +2625,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipRequestFulfillment**
 > DevelopmentAccountRelationshipResponse developmentAccountRelationshipRequestFulfillment()
@@ -2676,10 +2676,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipRequestInit**
 > DevelopmentAccountRelationshipRequestResponse developmentAccountRelationshipRequestInit()
@@ -2730,10 +2730,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipRequestList**
 > DevelopmentAccountRelationshipRequestListResponse developmentAccountRelationshipRequestList()
@@ -2799,10 +2799,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipRequestShow**
 > DevelopmentAccountRelationshipRequestResponse developmentAccountRelationshipRequestShow()
@@ -2853,10 +2853,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipShow**
 > DevelopmentAccountRelationshipResponse developmentAccountRelationshipShow()
@@ -2904,10 +2904,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountRelationshipUpdate**
 > DevelopmentAccountRelationshipResponse developmentAccountRelationshipUpdate()
@@ -2958,10 +2958,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountShow**
 > DevelopmentAccountResponse developmentAccountShow()
@@ -3006,10 +3006,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **developmentAccountUpdate**
 > DevelopmentAccountResponse developmentAccountUpdate()
@@ -3069,10 +3069,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressCreate**
 > EmailAddressResponse emailAddressCreate()
@@ -3120,10 +3120,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressDelete**
 > emailAddressDelete()
@@ -3171,10 +3171,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressList**
 > EmailAddressListResponse emailAddressList()
@@ -3234,10 +3234,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressShow**
 > EmailAddressResponse emailAddressShow()
@@ -3285,10 +3285,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressValidationFulfillment**
 > EmailAddressResponse emailAddressValidationFulfillment()
@@ -3333,10 +3333,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **emailAddressValidationRequest**
 > emailAddressValidationRequest()
@@ -3384,10 +3384,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseAliasCreate**
 > ExerciseAliasResponse exerciseAliasCreate()
@@ -3441,10 +3441,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseAliasDelete**
 > exerciseAliasDelete()
@@ -3489,10 +3489,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseAliasList**
 > ExerciseAliasListResponse exerciseAliasList()
@@ -3561,10 +3561,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseAliasShow**
 > ExerciseAliasResponse exerciseAliasShow()
@@ -3609,10 +3609,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseAliasUpdate**
 > ExerciseAliasResponse exerciseAliasUpdate()
@@ -3660,10 +3660,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetAssignmentCreate**
 > ExerciseOrdinalSetAssignmentResponse exerciseOrdinalSetAssignmentCreate()
@@ -3720,10 +3720,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetAssignmentDelete**
 > exerciseOrdinalSetAssignmentDelete()
@@ -3768,10 +3768,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetAssignmentList**
 > ExerciseOrdinalSetAssignmentListResponse exerciseOrdinalSetAssignmentList()
@@ -3831,10 +3831,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetAssignmentShow**
 > ExerciseOrdinalSetAssignmentResponse exerciseOrdinalSetAssignmentShow()
@@ -3879,10 +3879,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetCreate**
 > ExerciseOrdinalSetResponse exerciseOrdinalSetCreate()
@@ -3933,10 +3933,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetDelete**
 > exerciseOrdinalSetDelete()
@@ -3981,10 +3981,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetList**
 > ExerciseOrdinalSetListResponse exerciseOrdinalSetList()
@@ -4044,10 +4044,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetShow**
 > ExerciseOrdinalSetResponse exerciseOrdinalSetShow()
@@ -4092,10 +4092,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **exerciseOrdinalSetUpdate**
 > ExerciseOrdinalSetResponse exerciseOrdinalSetUpdate()
@@ -4146,10 +4146,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlIPRangeCreate**
 > FacilityAccessControlIPRangeResponse facilityAccessControlIPRangeCreate()
@@ -4194,10 +4194,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlIPRangeDelete**
 > facilityAccessControlIPRangeDelete()
@@ -4242,10 +4242,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlIPRangeList**
 > FacilityAccessControlIPRangeListResponse facilityAccessControlIPRangeList()
@@ -4302,10 +4302,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlIPRangeShow**
 > FacilityAccessControlIPRangeResponse facilityAccessControlIPRangeShow()
@@ -4350,10 +4350,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlIPRangeUpdate**
 > FacilityAccessControlIPRangeResponse facilityAccessControlIPRangeUpdate()
@@ -4401,10 +4401,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlKioskShow**
 > FacilityAccessControlKioskResponse facilityAccessControlKioskShow()
@@ -4446,10 +4446,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlKioskUpdate**
 > FacilityAccessControlKioskResponse facilityAccessControlKioskUpdate()
@@ -4503,10 +4503,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityAccessControlShow**
 > FacilityAccessControlResponse facilityAccessControlShow()
@@ -4548,10 +4548,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityApplyLicense**
 > FacilityResponse facilityApplyLicense()
@@ -4596,10 +4596,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityCardioMachineDelete**
 > facilityCardioMachineDelete()
@@ -4644,10 +4644,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityCardioMachineList**
 > FacilityCardioMachineListResponse facilityCardioMachineList()
@@ -4710,10 +4710,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityCardioMachineShow**
 > FacilityCardioMachineResponse facilityCardioMachineShow()
@@ -4758,10 +4758,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityCardioMachineUpdate**
 > FacilityCardioMachineResponse facilityCardioMachineUpdate()
@@ -4809,10 +4809,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityConfigurationShow**
 > FacilityConfigurationResponse facilityConfigurationShow()
@@ -4854,10 +4854,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityConfigurationSubscribe**
 > SubscriptionResponse facilityConfigurationSubscribe()
@@ -4899,10 +4899,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityConfigurationUpdate**
 > FacilityConfigurationResponse facilityConfigurationUpdate()
@@ -4965,10 +4965,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityCreate**
 > FacilityResponse facilityCreate()
@@ -5037,10 +5037,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityInBodyIntegrationCreate**
 > FacilityInBodyIntegrationResponse facilityInBodyIntegrationCreate()
@@ -5091,10 +5091,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityInBodyIntegrationDelete**
 > facilityInBodyIntegrationDelete()
@@ -5136,10 +5136,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityInBodyIntegrationShow**
 > FacilityInBodyIntegrationResponse facilityInBodyIntegrationShow()
@@ -5181,10 +5181,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskSessionEndEchip**
 > KioskSessionResponse facilityKioskSessionEndEchip()
@@ -5232,10 +5232,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskSessionUpdateEchip**
 > KioskSessionResponse facilityKioskSessionUpdateEchip()
@@ -5283,10 +5283,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskTokenCheck**
 > facilityKioskTokenCheck()
@@ -5328,10 +5328,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskTokenCreate**
 > FacilityKioskTokenResponse facilityKioskTokenCreate()
@@ -5373,10 +5373,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskTokenDelete**
 > facilityKioskTokenDelete()
@@ -5418,10 +5418,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityKioskUserLogin**
 > FacilityUserResponse facilityKioskUserLogin()
@@ -5469,10 +5469,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityLicenseList**
 > FacilityLicenseListResponse facilityLicenseList()
@@ -5538,10 +5538,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityLicenseShow**
 > FacilityLicenseResponse facilityLicenseShow()
@@ -5586,10 +5586,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityList**
 > FacilityListResponse facilityList()
@@ -5670,10 +5670,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityProfileShow**
 > FacilityProfileResponse facilityProfileShow()
@@ -5718,10 +5718,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityProfileUpdate**
 > FacilityProfileResponse facilityProfileUpdate()
@@ -5787,10 +5787,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilityCreate**
 > FacilityRelationshipResponse facilityRelationshipFacilityCreate()
@@ -5862,10 +5862,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilityDelete**
 > facilityRelationshipFacilityDelete()
@@ -5910,10 +5910,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilityList**
 > FacilityUserRelationshipListResponse facilityRelationshipFacilityList()
@@ -5985,10 +5985,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilityShow**
 > FacilityRelationshipResponse facilityRelationshipFacilityShow()
@@ -6033,10 +6033,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilitySubscribe**
 > SubscriptionResponse facilityRelationshipFacilitySubscribe()
@@ -6081,10 +6081,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipFacilityUpdate**
 > FacilityRelationshipResponse facilityRelationshipFacilityUpdate()
@@ -6138,10 +6138,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestFacilityCreate**
 > FacilityRelationshipRequestResponse facilityRelationshipRequestFacilityCreate()
@@ -6198,10 +6198,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestFacilityList**
 > FacilityRelationshipRequestListResponse facilityRelationshipRequestFacilityList()
@@ -6264,10 +6264,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestFacilityShow**
 > FacilityRelationshipRequestResponse facilityRelationshipRequestFacilityShow()
@@ -6312,10 +6312,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestFacilitySubscribe**
 > SubscriptionResponse facilityRelationshipRequestFacilitySubscribe()
@@ -6360,10 +6360,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestFacilityUpdate**
 > FacilityRelationshipResponse facilityRelationshipRequestFacilityUpdate()
@@ -6414,10 +6414,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestUserCreate**
 > FacilityRelationshipRequestResponse facilityRelationshipRequestUserCreate()
@@ -6468,10 +6468,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestUserList**
 > PrivilegedFacilityRelationshipRequestListResponse facilityRelationshipRequestUserList()
@@ -6534,10 +6534,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestUserShow**
 > FacilityRelationshipRequestResponse facilityRelationshipRequestUserShow()
@@ -6585,10 +6585,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestUserSubscribe**
 > SubscriptionResponse facilityRelationshipRequestUserSubscribe()
@@ -6636,10 +6636,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipRequestUserUpdate**
 > FacilityRelationshipResponse facilityRelationshipRequestUserUpdate()
@@ -6690,10 +6690,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipUserDelete**
 > facilityRelationshipUserDelete()
@@ -6741,10 +6741,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipUserList**
 > UserFacilityRelationshipListResponse facilityRelationshipUserList()
@@ -6810,10 +6810,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipUserShow**
 > FacilityRelationshipResponse facilityRelationshipUserShow()
@@ -6861,10 +6861,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipUserSubscribe**
 > SubscriptionResponse facilityRelationshipUserSubscribe()
@@ -6912,10 +6912,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityRelationshipUserUpdate**
 > FacilityRelationshipResponse facilityRelationshipUserUpdate()
@@ -6966,10 +6966,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityReportCheckIn**
 > facilityReportCheckIn()
@@ -7020,10 +7020,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionCheckEchip**
 > SessionResponse facilitySessionCheckEchip()
@@ -7068,10 +7068,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionDelete**
 > facilitySessionDelete()
@@ -7116,10 +7116,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionEnd**
 > SessionResponse facilitySessionEnd()
@@ -7170,10 +7170,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionList**
 > FacilitySessionListResponse facilitySessionList()
@@ -7239,10 +7239,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionShow**
 > SessionResponse facilitySessionShow()
@@ -7293,10 +7293,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionStart**
 > SessionStartResponse facilitySessionStart()
@@ -7353,10 +7353,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionStatus**
 > FacilitySessionListResponse facilitySessionStatus()
@@ -7401,10 +7401,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionSubscribe**
 > SubscriptionResponse facilitySessionSubscribe()
@@ -7449,10 +7449,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySessionUpdate**
 > SessionResponse facilitySessionUpdate()
@@ -7503,10 +7503,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityShow**
 > FacilityResponse facilityShow()
@@ -7551,10 +7551,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineConfigurationShow**
 > FacilityStrengthMachineConfigurationResponse facilityStrengthMachineConfigurationShow()
@@ -7596,10 +7596,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineConfigurationSubscribe**
 > SubscriptionResponse facilityStrengthMachineConfigurationSubscribe()
@@ -7641,10 +7641,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineConfigurationUpdate**
 > FacilityStrengthMachineConfigurationResponse facilityStrengthMachineConfigurationUpdate()
@@ -7704,10 +7704,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineCreateEchip**
 > FacilityStrengthMachineBulkCreateResponse facilityStrengthMachineCreateEchip()
@@ -7752,10 +7752,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineDelete**
 > facilityStrengthMachineDelete()
@@ -7800,10 +7800,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineInitializerOTP**
 > FacilityStrengthMachineInitializerOTPTokenResponse facilityStrengthMachineInitializerOTP()
@@ -7845,10 +7845,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineInitializerToken**
 > FacilityStrengthMachineInitializerTokenResponse facilityStrengthMachineInitializerToken()
@@ -7890,10 +7890,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineList**
 > FacilityStrengthMachineListResponse facilityStrengthMachineList()
@@ -7950,10 +7950,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineMaintenanceRecordCreate**
 > FacilityStrengthMachineMaintenanceRecordResponse facilityStrengthMachineMaintenanceRecordCreate()
@@ -8004,10 +8004,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineMaintenanceRecordDelete**
 > facilityStrengthMachineMaintenanceRecordDelete()
@@ -8052,10 +8052,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineMaintenanceRecordList**
 > FacilityStrengthMachineMaintenanceRecordListResponse facilityStrengthMachineMaintenanceRecordList()
@@ -8121,10 +8121,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineMaintenanceRecordShow**
 > FacilityStrengthMachineMaintenanceRecordResponse facilityStrengthMachineMaintenanceRecordShow()
@@ -8169,10 +8169,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineShow**
 > FacilityStrengthMachineResponse facilityStrengthMachineShow()
@@ -8217,10 +8217,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineSubscribe**
 > SubscriptionResponse facilityStrengthMachineSubscribe()
@@ -8265,10 +8265,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineUpdate**
 > FacilityStrengthMachineResponse facilityStrengthMachineUpdate()
@@ -8316,10 +8316,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineUtilizationInstanceList**
 > FacilityStrengthMachineUtilizationInstanceListResponse facilityStrengthMachineUtilizationInstanceList()
@@ -8382,10 +8382,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilityStrengthMachineUtilizationInstanceShow**
 > FacilityStrengthMachineUtilizationInstanceResponse facilityStrengthMachineUtilizationInstanceShow()
@@ -8430,10 +8430,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **facilitySubscribe**
 > SubscriptionResponse facilitySubscribe()
@@ -8478,10 +8478,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetCreate**
 > HeartRateDataSetResponse heartRateDataSetCreate()
@@ -8538,10 +8538,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetDelete**
 > heartRateDataSetDelete()
@@ -8589,10 +8589,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetList**
 > HeartRateDataSetListResponse heartRateDataSetList()
@@ -8658,10 +8658,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetShow**
 > HeartRateDataSetResponse heartRateDataSetShow()
@@ -8712,10 +8712,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetSubscribe**
 > SubscriptionResponse heartRateDataSetSubscribe()
@@ -8763,10 +8763,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heartRateDataSetUpdate**
 > HeartRateDataSetResponse heartRateDataSetUpdate()
@@ -8817,10 +8817,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementCreate**
 > HeightMeasurementResponse heightMeasurementCreate()
@@ -8874,10 +8874,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementDelete**
 > heightMeasurementDelete()
@@ -8925,10 +8925,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementList**
 > HeightMeasurementListResponse heightMeasurementList()
@@ -8991,10 +8991,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementShow**
 > HeightMeasurementResponse heightMeasurementShow()
@@ -9042,10 +9042,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **heightMeasurementSubscribe**
 > SubscriptionResponse heightMeasurementSubscribe()
@@ -9093,10 +9093,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionCreate**
 > MSeriesAppSessionResponse mSeriesAppSessionCreate()
@@ -9213,10 +9213,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionDelete**
 > mSeriesAppSessionDelete()
@@ -9264,10 +9264,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionExport**
 > MSeriesAppSessionExportResponse mSeriesAppSessionExport()
@@ -9318,10 +9318,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionExportFlat**
 > mSeriesAppSessionExportFlat()
@@ -9369,10 +9369,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionList**
 > MSeriesAppSessionListResponse mSeriesAppSessionList()
@@ -9435,10 +9435,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesAppSessionShow**
 > MSeriesAppSessionResponse mSeriesAppSessionShow()
@@ -9489,10 +9489,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeCreate**
 > MSeriesChallengeResponse mSeriesChallengeCreate()
@@ -9558,10 +9558,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeDelete**
 > mSeriesChallengeDelete()
@@ -9606,10 +9606,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeList**
 > MSeriesChallengeListResponse mSeriesChallengeList()
@@ -9678,10 +9678,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeParticipantCreate**
 > MSeriesChallengeParticipantResponse mSeriesChallengeParticipantCreate()
@@ -9729,10 +9729,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeParticipantDelete**
 > mSeriesChallengeParticipantDelete()
@@ -9780,10 +9780,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeParticipantList**
 > MSeriesChallengeParticipantListResponse mSeriesChallengeParticipantList()
@@ -9849,10 +9849,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeParticipantShow**
 > MSeriesChallengeParticipantResponse mSeriesChallengeParticipantShow()
@@ -9906,10 +9906,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeShow**
 > MSeriesChallengeResponse mSeriesChallengeShow()
@@ -9960,10 +9960,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesChallengeUpdate**
 > MSeriesChallengeResponse mSeriesChallengeUpdate()
@@ -10017,10 +10017,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetCreate**
 > MSeriesDataSetResponse mSeriesDataSetCreate()
@@ -10092,10 +10092,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetDelete**
 > mSeriesDataSetDelete()
@@ -10143,10 +10143,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetList**
 > MSeriesDataSetListResponse mSeriesDataSetList()
@@ -10212,10 +10212,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetReenqueue**
 > mSeriesDataSetReenqueue()
@@ -10260,10 +10260,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetSegmentShow**
 > MSeriesDataSetSegmentResponse mSeriesDataSetSegmentShow()
@@ -10314,10 +10314,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetShow**
 > MSeriesDataSetResponse mSeriesDataSetShow()
@@ -10368,10 +10368,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetSubscribe**
 > SubscriptionResponse mSeriesDataSetSubscribe()
@@ -10419,10 +10419,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesDataSetUpdate**
 > MSeriesDataSetResponse mSeriesDataSetUpdate()
@@ -10476,10 +10476,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesFtpMeasurementCreate**
 > MSeriesFtpMeasurementResponse mSeriesFtpMeasurementCreate()
@@ -10539,10 +10539,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesFtpMeasurementDelete**
 > mSeriesFtpMeasurementDelete()
@@ -10590,10 +10590,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesFtpMeasurementList**
 > MSeriesFtpMeasurementListResponse mSeriesFtpMeasurementList()
@@ -10665,10 +10665,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesFtpMeasurementShow**
 > MSeriesFtpMeasurementResponse mSeriesFtpMeasurementShow()
@@ -10716,10 +10716,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **mSeriesProfileStatsShow**
 > MSeriesProfileStatsResponse mSeriesProfileStatsShow()
@@ -10767,10 +10767,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **machineAdjustmentCreate**
 > MachineAdjustmentResponse machineAdjustmentCreate()
@@ -10833,10 +10833,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **machineAdjustmentDelete**
 > machineAdjustmentDelete()
@@ -10884,10 +10884,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **machineAdjustmentList**
 > MachineAdjustmentListResponse machineAdjustmentList()
@@ -10947,10 +10947,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **machineAdjustmentShow**
 > MachineAdjustmentResponse machineAdjustmentShow()
@@ -10998,10 +10998,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **machineAdjustmentUpdate**
 > MachineAdjustmentResponse machineAdjustmentUpdate()
@@ -11064,10 +11064,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthAuthorize**
 > OauthResponse oauthAuthorize()
@@ -11121,10 +11121,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthDeauthorize**
 > oauthDeauthorize()
@@ -11169,10 +11169,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthInitiate**
 > RedirectResponse oauthInitiate()
@@ -11226,7 +11226,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceDelete**
 > oauthServiceDelete()
@@ -11274,10 +11274,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceList**
 > OAuthServiceListResponse oauthServiceList()
@@ -11337,10 +11337,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthServiceShow**
 > OAuthServiceResponse oauthServiceShow()
@@ -11388,10 +11388,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **oauthToken**
 > oauthToken()
@@ -11451,7 +11451,7 @@ void (empty response body)
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **primaryEmailAddressShow**
 > PrimaryEmailAddressResponse primaryEmailAddressShow()
@@ -11496,10 +11496,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **primaryEmailAddressUpdate**
 > PrimaryEmailAddressResponse primaryEmailAddressUpdate()
@@ -11547,10 +11547,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **profileShow**
 > ProfileResponse profileShow()
@@ -11595,10 +11595,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **profileSubscribe**
 > SubscriptionResponse profileSubscribe()
@@ -11643,10 +11643,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **profileUpdate**
 > ProfileResponse profileUpdate()
@@ -11706,10 +11706,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionDelete**
 > sessionDelete()
@@ -11757,10 +11757,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionEnd**
 > SessionResponse sessionEnd()
@@ -11808,10 +11808,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionList**
 > SessionListResponse sessionList()
@@ -11880,10 +11880,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanAttachSequence**
 > SessionPlanResponse sessionPlanAttachSequence()
@@ -11937,10 +11937,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanAttachSequenceTemplate**
 > SessionPlanResponse sessionPlanAttachSequenceTemplate()
@@ -11994,10 +11994,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanCloneTemplate**
 > SessionPlanResponse sessionPlanCloneTemplate()
@@ -12054,10 +12054,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanCreate**
 > SessionPlanResponse sessionPlanCreate()
@@ -12129,10 +12129,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanDelete**
 > sessionPlanDelete()
@@ -12180,10 +12180,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanDetachSequence**
 > SessionPlanResponse sessionPlanDetachSequence()
@@ -12237,10 +12237,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanList**
 > SessionPlanListResponse sessionPlanList()
@@ -12306,10 +12306,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceCreate**
 > SessionPlanSequenceResponse sessionPlanSequenceCreate()
@@ -12363,10 +12363,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceDelete**
 > sessionPlanSequenceDelete()
@@ -12414,10 +12414,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceInstanceDelete**
 > sessionPlanSequenceInstanceDelete()
@@ -12465,10 +12465,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceInstanceList**
 > SessionPlanSequenceInstanceListResponse sessionPlanSequenceInstanceList()
@@ -12531,10 +12531,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceInstanceShow**
 > SessionPlanSequenceInstanceResponse sessionPlanSequenceInstanceShow()
@@ -12582,10 +12582,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceList**
 > SessionPlanSequenceListResponse sessionPlanSequenceList()
@@ -12648,10 +12648,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceShow**
 > SessionPlanSequenceResponse sessionPlanSequenceShow()
@@ -12699,10 +12699,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceTemplateCreate**
 > SessionPlanSequenceTemplateResponse sessionPlanSequenceTemplateCreate()
@@ -12762,10 +12762,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceTemplateDelete**
 > sessionPlanSequenceTemplateDelete()
@@ -12813,10 +12813,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceTemplateList**
 > SessionPlanSequenceTemplateListResponse sessionPlanSequenceTemplateList()
@@ -12885,10 +12885,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceTemplateShow**
 > SessionPlanSequenceTemplateResponse sessionPlanSequenceTemplateShow()
@@ -12936,10 +12936,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceTemplateUpdate**
 > SessionPlanSequenceTemplateResponse sessionPlanSequenceTemplateUpdate()
@@ -13005,10 +13005,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSequenceUpdate**
 > SessionPlanSequenceResponse sessionPlanSequenceUpdate()
@@ -13068,10 +13068,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetCreateActivity**
 > SessionPlanSetResponse sessionPlanSetCreateActivity()
@@ -13125,10 +13125,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetCreateCardio**
 > SessionPlanSetResponse sessionPlanSetCreateCardio()
@@ -13194,10 +13194,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetCreateStrength**
 > SessionPlanSetResponse sessionPlanSetCreateStrength()
@@ -13263,10 +13263,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetCreateStretch**
 > SessionPlanSetResponse sessionPlanSetCreateStretch()
@@ -13320,10 +13320,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetDelete**
 > sessionPlanSetDelete()
@@ -13371,10 +13371,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetInstanceShow**
 > SessionPlanSetInstanceResponse sessionPlanSetInstanceShow()
@@ -13422,10 +13422,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetInstanceUpdateActivity**
 > SessionPlanSetInstanceResponse sessionPlanSetInstanceUpdateActivity()
@@ -13476,10 +13476,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetInstanceUpdateCardio**
 > SessionPlanSetInstanceResponse sessionPlanSetInstanceUpdateCardio()
@@ -13542,10 +13542,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetInstanceUpdateStrength**
 > SessionPlanSetInstanceResponse sessionPlanSetInstanceUpdateStrength()
@@ -13608,10 +13608,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetInstanceUpdateStretch**
 > SessionPlanSetInstanceResponse sessionPlanSetInstanceUpdateStretch()
@@ -13662,10 +13662,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetList**
 > SessionPlanSetListResponse sessionPlanSetList()
@@ -13728,10 +13728,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetShow**
 > SessionPlanSetResponse sessionPlanSetShow()
@@ -13779,10 +13779,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateCreateActivity**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateCreateActivity()
@@ -13836,10 +13836,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateCreateCardio**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateCreateCardio()
@@ -13905,10 +13905,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateCreateStrength**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateCreateStrength()
@@ -13968,10 +13968,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateCreateStretch**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateCreateStretch()
@@ -14025,10 +14025,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateDelete**
 > sessionPlanSetTemplateDelete()
@@ -14076,10 +14076,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateList**
 > SessionPlanSetTemplateListResponse sessionPlanSetTemplateList()
@@ -14142,10 +14142,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateShow**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateShow()
@@ -14193,10 +14193,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateUpdateActivity**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateUpdateActivity()
@@ -14250,10 +14250,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateUpdateCardio**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateUpdateCardio()
@@ -14319,10 +14319,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateUpdateStrength**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateUpdateStrength()
@@ -14382,10 +14382,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetTemplateUpdateStretch**
 > SessionPlanSetTemplateResponse sessionPlanSetTemplateUpdateStretch()
@@ -14439,10 +14439,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetUpdateActivity**
 > SessionPlanSetResponse sessionPlanSetUpdateActivity()
@@ -14496,10 +14496,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetUpdateCardio**
 > SessionPlanSetResponse sessionPlanSetUpdateCardio()
@@ -14565,10 +14565,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetUpdateStrength**
 > SessionPlanSetResponse sessionPlanSetUpdateStrength()
@@ -14634,10 +14634,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanSetUpdateStretch**
 > SessionPlanSetResponse sessionPlanSetUpdateStretch()
@@ -14691,10 +14691,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanShow**
 > SessionPlanResponse sessionPlanShow()
@@ -14742,10 +14742,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateAttachSequence**
 > SessionPlanTemplateResponse sessionPlanTemplateAttachSequence()
@@ -14799,10 +14799,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateCreate**
 > SessionPlanTemplateResponse sessionPlanTemplateCreate()
@@ -14868,10 +14868,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateDelete**
 > sessionPlanTemplateDelete()
@@ -14919,10 +14919,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateDetachSequence**
 > SessionPlanTemplateResponse sessionPlanTemplateDetachSequence()
@@ -14976,10 +14976,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateList**
 > SessionPlanTemplateListResponse sessionPlanTemplateList()
@@ -15048,10 +15048,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateShow**
 > SessionPlanTemplateResponse sessionPlanTemplateShow()
@@ -15099,10 +15099,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanTemplateUpdate**
 > SessionPlanTemplateResponse sessionPlanTemplateUpdate()
@@ -15171,10 +15171,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionPlanUpdate**
 > SessionPlanResponse sessionPlanUpdate()
@@ -15249,10 +15249,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionShow**
 > SessionResponse sessionShow()
@@ -15300,10 +15300,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionStart**
 > SessionResponse sessionStart()
@@ -15357,10 +15357,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **sessionSubscribe**
 > SubscriptionResponse sessionSubscribe()
@@ -15408,10 +15408,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseCreate**
 > strengthExerciseCreate()
@@ -15468,10 +15468,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseDelete**
 > strengthExerciseDelete()
@@ -15516,10 +15516,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseList**
 > StrengthExerciseListResponse strengthExerciseList()
@@ -15588,10 +15588,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseMuscleCreate**
 > StrengthExerciseMuscleResponse strengthExerciseMuscleCreate()
@@ -15642,10 +15642,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseMuscleDelete**
 > strengthExerciseMuscleDelete()
@@ -15690,10 +15690,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseMuscleList**
 > StrengthExerciseMuscleListResponse strengthExerciseMuscleList()
@@ -15756,10 +15756,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseMuscleShow**
 > StrengthExerciseMuscleResponse strengthExerciseMuscleShow()
@@ -15804,10 +15804,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseMuscleUpdate**
 > StrengthExerciseMuscleResponse strengthExerciseMuscleUpdate()
@@ -15855,10 +15855,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseShow**
 > StrengthExerciseResponse strengthExerciseShow()
@@ -15903,10 +15903,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseUpdate**
 > StrengthExerciseResponse strengthExerciseUpdate()
@@ -15963,10 +15963,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseVariantCreate**
 > StrengthExerciseVariantResponse strengthExerciseVariantCreate()
@@ -16029,10 +16029,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseVariantDelete**
 > strengthExerciseVariantDelete()
@@ -16077,10 +16077,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseVariantList**
 > StrengthExerciseVariantListResponse strengthExerciseVariantList()
@@ -16149,10 +16149,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseVariantShow**
 > StrengthExerciseVariantResponse strengthExerciseVariantShow()
@@ -16197,10 +16197,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthExerciseVariantUpdate**
 > StrengthExerciseVariantResponse strengthExerciseVariantUpdate()
@@ -16260,10 +16260,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetCreate**
 > StrengthMachineDataSetResponse strengthMachineDataSetCreate()
@@ -16365,10 +16365,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetCreateA500**
 > StrengthMachineDataSetResponse strengthMachineDataSetCreateA500()
@@ -16422,10 +16422,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetDelete**
 > strengthMachineDataSetDelete()
@@ -16473,10 +16473,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetExport**
 > StrengthMachineDataSetExportResponse strengthMachineDataSetExport()
@@ -16527,10 +16527,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetExportFlat**
 > strengthMachineDataSetExportFlat()
@@ -16578,10 +16578,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetList**
 > StrengthMachineDataSetListResponse strengthMachineDataSetList()
@@ -16647,10 +16647,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetShow**
 > StrengthMachineDataSetResponse strengthMachineDataSetShow()
@@ -16698,10 +16698,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetSubscribe**
 > SubscriptionResponse strengthMachineDataSetSubscribe()
@@ -16749,10 +16749,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineDataSetUpdate**
 > StrengthMachineDataSetResponse strengthMachineDataSetUpdate()
@@ -16806,10 +16806,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineHistoryList**
 > StrengthMachineHistoryListResponse strengthMachineHistoryList()
@@ -16872,10 +16872,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineList**
 > StrengthMachineListResponse strengthMachineList()
@@ -16938,10 +16938,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineProfileStatsShow**
 > StrengthMachineProfileStatsResponse strengthMachineProfileStatsShow()
@@ -16989,10 +16989,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **strengthMachineShow**
 > StrengthMachineResponse strengthMachineShow()
@@ -17037,10 +17037,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseCreate**
 > StretchExerciseResponse stretchExerciseCreate()
@@ -17085,10 +17085,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseDelete**
 > stretchExerciseDelete()
@@ -17133,10 +17133,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseList**
 > StretchExerciseListResponse stretchExerciseList()
@@ -17193,10 +17193,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseMuscleCreate**
 > StretchExerciseMuscleResponse stretchExerciseMuscleCreate()
@@ -17247,10 +17247,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseMuscleDelete**
 > stretchExerciseMuscleDelete()
@@ -17295,10 +17295,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseMuscleList**
 > StretchExerciseMuscleListResponse stretchExerciseMuscleList()
@@ -17361,10 +17361,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseMuscleShow**
 > StretchExerciseMuscleResponse stretchExerciseMuscleShow()
@@ -17409,10 +17409,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseMuscleUpdate**
 > StretchExerciseMuscleResponse stretchExerciseMuscleUpdate()
@@ -17460,10 +17460,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseShow**
 > StretchExerciseResponse stretchExerciseShow()
@@ -17508,10 +17508,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseUpdate**
 > StretchExerciseResponse stretchExerciseUpdate()
@@ -17556,10 +17556,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseVariantCreate**
 > StretchExerciseVariantResponse stretchExerciseVariantCreate()
@@ -17613,10 +17613,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseVariantDelete**
 > stretchExerciseVariantDelete()
@@ -17661,10 +17661,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseVariantList**
 > StretchExerciseVariantListResponse stretchExerciseVariantList()
@@ -17724,10 +17724,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseVariantShow**
 > StretchExerciseVariantResponse stretchExerciseVariantShow()
@@ -17772,10 +17772,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **stretchExerciseVariantUpdate**
 > StretchExerciseVariantResponse stretchExerciseVariantUpdate()
@@ -17829,10 +17829,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationDeveloperDelete**
 > userApplicationAuthorizationDeveloperDelete()
@@ -17880,10 +17880,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationDeveloperList**
 > UserApplicationAuthorizationDeveloperListResponse userApplicationAuthorizationDeveloperList()
@@ -17943,10 +17943,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationDeveloperShow**
 > UserApplicationAuthorizationResponse userApplicationAuthorizationDeveloperShow()
@@ -17994,10 +17994,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationUserDelete**
 > userApplicationAuthorizationUserDelete()
@@ -18045,10 +18045,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationUserList**
 > UserApplicationAuthorizationUserListResponse userApplicationAuthorizationUserList()
@@ -18105,10 +18105,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userApplicationAuthorizationUserShow**
 > UserApplicationAuthorizationResponse userApplicationAuthorizationUserShow()
@@ -18156,10 +18156,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userCreate**
 > UserResponse userCreate()
@@ -18213,7 +18213,7 @@ Name | Type | Description  | Notes
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userCreateBasic**
 > userCreateBasic()
@@ -18267,7 +18267,7 @@ void (empty response body)
 No authorization required
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userDelete**
 > userDelete()
@@ -18312,10 +18312,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userInBodyIntegrationCreate**
 > UserInBodyIntegrationResponse userInBodyIntegrationCreate()
@@ -18363,10 +18363,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userInBodyIntegrationDelete**
 > userInBodyIntegrationDelete()
@@ -18411,10 +18411,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userInBodyIntegrationShow**
 > UserInBodyIntegrationResponse userInBodyIntegrationShow()
@@ -18459,10 +18459,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userInBodyIntegrationSync**
 > userInBodyIntegrationSync()
@@ -18507,10 +18507,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userShow**
 > UserResponse userShow()
@@ -18555,10 +18555,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **userSubscribe**
 > SubscriptionResponse userSubscribe()
@@ -18603,10 +18603,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementCreate**
 > WeightMeasurementResponse weightMeasurementCreate()
@@ -18663,10 +18663,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementDelete**
 > weightMeasurementDelete()
@@ -18714,10 +18714,10 @@ void (empty response body)
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementImportInBody**
 > WeightMeasurementResponse weightMeasurementImportInBody()
@@ -18765,10 +18765,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementImportInBodyCSV**
 > WeightMeasurementListResponse weightMeasurementImportInBodyCSV()
@@ -18816,10 +18816,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementList**
 > WeightMeasurementListResponse weightMeasurementList()
@@ -18882,10 +18882,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementShow**
 > WeightMeasurementResponse weightMeasurementShow()
@@ -18933,10 +18933,10 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **weightMeasurementSubscribe**
 > SubscriptionResponse weightMeasurementSubscribe()
@@ -18984,8 +18984,8 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](README.md#bearerAuth)
+[bearerAuth](../README.md#bearerAuth)
 
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

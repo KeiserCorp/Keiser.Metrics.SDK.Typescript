@@ -12,3 +12,5 @@ Name | Type | Description | Notes
 **sessionPlanStretchSetTemplate** | [**SessionPlanStretchSetTemplateData**](SessionPlanStretchSetTemplateData.md) |  | [optional] [default to undefined]
 **sessionPlanActivitySetTemplate** | [**SessionPlanActivitySetTemplateData**](SessionPlanActivitySetTemplateData.md) |  | [optional] [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
