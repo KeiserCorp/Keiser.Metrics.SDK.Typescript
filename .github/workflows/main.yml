@@ -57,6 +57,6 @@ jobs:
         with:
           token: ${{ secrets.SLACK_BOT_TOKEN }}
           channel: '#deployment'
-          platform: Dart
+          platform: Typescript
           status: ${{ job.status }}
           version: ${{ needs.version-check.outputs.version }}
