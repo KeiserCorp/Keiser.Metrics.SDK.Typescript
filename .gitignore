@@ -1,0 +1,5 @@
+# local files
+node_modules
+
+# OS-specific wierdness
+.DS_Store
