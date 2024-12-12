@@ -784,7 +784,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **appType** | [**string**] | Allowed values: performance, elder, medical, commercial | defaults to undefined
  **facilityStrengthMachineId** | [**number**] |  | defaults to undefined
- **forceUnit** | [**string**] | Allowed values: lb, kg, ne, er | defaults to undefined
+ **forceUnit** | [**string**] | Allowed values: lb, kg, ne, er, lb, kg, ne, er | defaults to undefined
  **isFacilityConfigurationOverridden** | [**boolean**] |  | defaults to undefined
  **primaryFocus** | [**string**] | Allowed values: power, force, velocity, rom | defaults to undefined
  **secondaryFocus** | [**string**] | Allowed values: power, force, velocity, rom | defaults to undefined
