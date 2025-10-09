@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-typescript@5.0.35
+## @keiser/metrics-sdk-typescript@5.1.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-typescript@5.0.35 --save
+npm install @keiser/metrics-sdk-typescript@5.1.0 --save
 ```
 
 
@@ -139,13 +139,15 @@ Method | HTTP request | Description
 [**facilityAccessControlKioskUpdate**](docs/MetricsApi.md#facilityAccessControlKioskUpdate) | **PUT** /facility/access-control/kiosk | Update the facility access control kiosk entity
 [**facilityAccessControlShow**](docs/MetricsApi.md#facilityAccessControlShow) | **GET** /facility/access-control | Show a facility access control
 [**facilityApplyLicense**](docs/MetricsApi.md#facilityApplyLicense) | **POST** /facility/apply-license | Updates a facility license
+[**facilityCardioMachineCreate**](docs/MetricsApi.md#facilityCardioMachineCreate) | **POST** /facility/cardio-machine | Create a facility cardio machine
 [**facilityCardioMachineDelete**](docs/MetricsApi.md#facilityCardioMachineDelete) | **DELETE** /facility/cardio-machine/{id} | Delete a facility cardio machine
-[**facilityCardioMachineShow**](docs/MetricsApi.md#facilityCardioMachineShow) | **POST** /facility/cardio-machine | Show a facility cardio machine
+[**facilityCardioMachineList**](docs/MetricsApi.md#facilityCardioMachineList) | **GET** /facility/cardio-machine/list | List facility cardio machines
+[**facilityCardioMachineShow**](docs/MetricsApi.md#facilityCardioMachineShow) | **GET** /facility/cardio-machine | Show a facility cardio machine
 [**facilityCardioMachineUpdate**](docs/MetricsApi.md#facilityCardioMachineUpdate) | **PUT** /facility/cardio-machine/{id} | Update a facility cardio machine
 [**facilityConfigurationShow**](docs/MetricsApi.md#facilityConfigurationShow) | **GET** /facility/configuration | Show a facility configuration
 [**facilityConfigurationSubscribe**](docs/MetricsApi.md#facilityConfigurationSubscribe) | **GET** /facilityConfiguration/subscribe | Subscribe to facility configuration
 [**facilityConfigurationUpdate**](docs/MetricsApi.md#facilityConfigurationUpdate) | **PUT** /facility/configuration | Update a facility configuration
-[**facilityCreate**](docs/MetricsApi.md#facilityCreate) | **POST** /facility  | Create a facility
+[**facilityCreate**](docs/MetricsApi.md#facilityCreate) | **POST** /facility | Create a facility
 [**facilityInBodyIntegrationCreate**](docs/MetricsApi.md#facilityInBodyIntegrationCreate) | **POST** /facility/inbody-integration | Create a facility InBody integration
 [**facilityInBodyIntegrationDelete**](docs/MetricsApi.md#facilityInBodyIntegrationDelete) | **DELETE** /facility/inbody-integration | Delete a facility InBody integration
 [**facilityInBodyIntegrationShow**](docs/MetricsApi.md#facilityInBodyIntegrationShow) | **GET** /facility/inbody-integration | Show a facility InBody integration settings
@@ -195,6 +197,7 @@ Method | HTTP request | Description
 [**facilityStrengthMachineConfigurationShow**](docs/MetricsApi.md#facilityStrengthMachineConfigurationShow) | **GET** /facility/strength-machine/configuration | Show a facility strength machine default configuration
 [**facilityStrengthMachineConfigurationSubscribe**](docs/MetricsApi.md#facilityStrengthMachineConfigurationSubscribe) | **GET** /facilityStrengthMachineConfiguration/subscribe | Subscribe to changes to facility strength machine configuration
 [**facilityStrengthMachineConfigurationUpdate**](docs/MetricsApi.md#facilityStrengthMachineConfigurationUpdate) | **PUT** /facility/strength-machine/configuration | Update a facility strength machine configuration
+[**facilityStrengthMachineCreate**](docs/MetricsApi.md#facilityStrengthMachineCreate) | **POST** /facility/strength-machine/{strengthMachineId} | Create a facility strength machine
 [**facilityStrengthMachineCreateEchip**](docs/MetricsApi.md#facilityStrengthMachineCreateEchip) | **POST** /facility/strength-machine/echip | Creates facility strength machines using eChip data
 [**facilityStrengthMachineDelete**](docs/MetricsApi.md#facilityStrengthMachineDelete) | **DELETE** /facility/strength-machine/{id} | Delete a facility strength machine
 [**facilityStrengthMachineInitializerOTP**](docs/MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
@@ -227,15 +230,6 @@ Method | HTTP request | Description
 [**mSeriesAppSessionExportFlat**](docs/MetricsApi.md#mSeriesAppSessionExportFlat) | **GET** /m-series/app-session/export/{filename} | Export a user\&#39;s session as a flat file
 [**mSeriesAppSessionList**](docs/MetricsApi.md#mSeriesAppSessionList) | **GET** /m-series/app-session/list | List a user\&#39;s sessions generated using M Series app data
 [**mSeriesAppSessionShow**](docs/MetricsApi.md#mSeriesAppSessionShow) | **GET** /m-series/app-session | Show a user\&#39;s session generated using M Series app data
-[**mSeriesChallengeCreate**](docs/MetricsApi.md#mSeriesChallengeCreate) | **POST** /m-series/challenge | Create a user mSeries Challenge
-[**mSeriesChallengeDelete**](docs/MetricsApi.md#mSeriesChallengeDelete) | **DELETE** /m-series/challenge/{id} | Delete a user\&#39;s owned mSeries Challenge
-[**mSeriesChallengeList**](docs/MetricsApi.md#mSeriesChallengeList) | **GET** /m-series/challenge/list | List a user\&#39;s owned or joined mSeries Challenges
-[**mSeriesChallengeParticipantCreate**](docs/MetricsApi.md#mSeriesChallengeParticipantCreate) | **POST** /m-series/challenge/participant | Join Challenge
-[**mSeriesChallengeParticipantDelete**](docs/MetricsApi.md#mSeriesChallengeParticipantDelete) | **DELETE** /m-series/challenge/{mSeriesChallengeId}/participant | Leave Challenge
-[**mSeriesChallengeParticipantList**](docs/MetricsApi.md#mSeriesChallengeParticipantList) | **GET** /m-series/challenge/participant/list | Search for mSeries Challenge Participants
-[**mSeriesChallengeParticipantShow**](docs/MetricsApi.md#mSeriesChallengeParticipantShow) | **GET** /m-series/challenge/participant | Show a user\&#39;s mSeries User Challenge Participant Record
-[**mSeriesChallengeShow**](docs/MetricsApi.md#mSeriesChallengeShow) | **GET** /m-series/challenge | Show a user mSeries Challenge
-[**mSeriesChallengeUpdate**](docs/MetricsApi.md#mSeriesChallengeUpdate) | **PUT** /m-series/challenge/{id} | Update a user mSeries Challenge
 [**mSeriesDataSetCreate**](docs/MetricsApi.md#mSeriesDataSetCreate) | **POST** /m-series/data-set | Create a user M Series data set
 [**mSeriesDataSetDelete**](docs/MetricsApi.md#mSeriesDataSetDelete) | **DELETE** /m-series/data-set/{id} | Delete a user\&#39;s M Series data set
 [**mSeriesDataSetList**](docs/MetricsApi.md#mSeriesDataSetList) | **GET** /m-series/data-set/list | List a user\&#39;s M Series data sets
@@ -294,7 +288,7 @@ Method | HTTP request | Description
 [**sessionPlanSetCreateStrength**](docs/MetricsApi.md#sessionPlanSetCreateStrength) | **POST** /session-plan-set/{sequenceId}/strength-set | Create session plan strength set
 [**sessionPlanSetCreateStretch**](docs/MetricsApi.md#sessionPlanSetCreateStretch) | **POST** /session-plan-set/{sequenceId}/stretch-set | Create session plan stretch set
 [**sessionPlanSetDelete**](docs/MetricsApi.md#sessionPlanSetDelete) | **DELETE** /session-plan-set/{id} | Delete session plan set
-[**sessionPlanSetInstanceShow**](docs/MetricsApi.md#sessionPlanSetInstanceShow) | **GET** /session-plan-set-instance | Show a session plan set intance
+[**sessionPlanSetInstanceShow**](docs/MetricsApi.md#sessionPlanSetInstanceShow) | **GET** /session-plan-set-instance | Show a session plan set instance
 [**sessionPlanSetInstanceUpdateActivity**](docs/MetricsApi.md#sessionPlanSetInstanceUpdateActivity) | **PUT** /session-plan-set-instance/{id}/activity-set | Update session plan activity set instance
 [**sessionPlanSetInstanceUpdateCardio**](docs/MetricsApi.md#sessionPlanSetInstanceUpdateCardio) | **PUT** /session-plan-set-instance/{id}/cardio-set | Update session plan cardio set instance
 [**sessionPlanSetInstanceUpdateStrength**](docs/MetricsApi.md#sessionPlanSetInstanceUpdateStrength) | **PUT** /session-plan-set-instance/{id}/strength-set | Update session plan strength set instance
@@ -327,7 +321,7 @@ Method | HTTP request | Description
 [**sessionPlanUpdate**](docs/MetricsApi.md#sessionPlanUpdate) | **PUT** /session-plan/{id} | Update session plan
 [**sessionShow**](docs/MetricsApi.md#sessionShow) | **GET** /session | Show a user\&#39;s session
 [**sessionStart**](docs/MetricsApi.md#sessionStart) | **POST** /session | Start a user session
-[**sessionSubscribe**](docs/MetricsApi.md#sessionSubscribe) | **GET** /session:subscribe | Subscribe to changes to a user\&#39;s session
+[**sessionSubscribe**](docs/MetricsApi.md#sessionSubscribe) | **GET** /session/subscribe | Subscribe to changes to a user\&#39;s session
 [**strengthExerciseCreate**](docs/MetricsApi.md#strengthExerciseCreate) | **POST** /strength-exercise | Create a strength exercise
 [**strengthExerciseDelete**](docs/MetricsApi.md#strengthExerciseDelete) | **DELETE** /strength-exercise/{id} | Delete a strength exercise
 [**strengthExerciseList**](docs/MetricsApi.md#strengthExerciseList) | **GET** /strength-exercise/list | List strength exercises
@@ -397,7 +391,9 @@ Method | HTTP request | Description
 
 ## Documentation for Models
 
+ - [A500AppType](docs/A500AppType.md)
  - [A500DataSetData](docs/A500DataSetData.md)
+ - [A500DataSetType](docs/A500DataSetType.md)
  - [A500GetUserData](docs/A500GetUserData.md)
  - [A500GetUserResponse](docs/A500GetUserResponse.md)
  - [A500MachineStateData](docs/A500MachineStateData.md)
@@ -425,11 +421,14 @@ Method | HTTP request | Description
  - [CardioExerciseVariantListResponseMeta](docs/CardioExerciseVariantListResponseMeta.md)
  - [CardioExerciseVariantResponse](docs/CardioExerciseVariantResponse.md)
  - [CardioExerciseVariantSorting](docs/CardioExerciseVariantSorting.md)
+ - [CardioExerciseVariantType](docs/CardioExerciseVariantType.md)
  - [CardioMachineData](docs/CardioMachineData.md)
  - [CardioMachineListResponse](docs/CardioMachineListResponse.md)
  - [CardioMachineListResponseMeta](docs/CardioMachineListResponseMeta.md)
+ - [CardioMachineParseCode](docs/CardioMachineParseCode.md)
  - [CardioMachineResponse](docs/CardioMachineResponse.md)
  - [CardioMachineSorting](docs/CardioMachineSorting.md)
+ - [CharacterType](docs/CharacterType.md)
  - [DevelopmentAccountData](docs/DevelopmentAccountData.md)
  - [DevelopmentAccountListResponse](docs/DevelopmentAccountListResponse.md)
  - [DevelopmentAccountListResponseMeta](docs/DevelopmentAccountListResponseMeta.md)
@@ -442,6 +441,7 @@ Method | HTTP request | Description
  - [DevelopmentAccountRelationshipRequestResponse](docs/DevelopmentAccountRelationshipRequestResponse.md)
  - [DevelopmentAccountRelationshipRequestSorting](docs/DevelopmentAccountRelationshipRequestSorting.md)
  - [DevelopmentAccountRelationshipResponse](docs/DevelopmentAccountRelationshipResponse.md)
+ - [DevelopmentAccountRelationshipRole](docs/DevelopmentAccountRelationshipRole.md)
  - [DevelopmentAccountRelationshipSorting](docs/DevelopmentAccountRelationshipSorting.md)
  - [DevelopmentAccountResponse](docs/DevelopmentAccountResponse.md)
  - [DevelopmentAccountSorting](docs/DevelopmentAccountSorting.md)
@@ -450,6 +450,7 @@ Method | HTTP request | Description
  - [EmailAddressListResponseMeta](docs/EmailAddressListResponseMeta.md)
  - [EmailAddressResponse](docs/EmailAddressResponse.md)
  - [EmailAddressSorting](docs/EmailAddressSorting.md)
+ - [EmployeeRole](docs/EmployeeRole.md)
  - [EndpointsData](docs/EndpointsData.md)
  - [EndpointsResponse](docs/EndpointsResponse.md)
  - [ErrorData](docs/ErrorData.md)
@@ -459,6 +460,7 @@ Method | HTTP request | Description
  - [ExerciseAliasListResponseMeta](docs/ExerciseAliasListResponseMeta.md)
  - [ExerciseAliasResponse](docs/ExerciseAliasResponse.md)
  - [ExerciseAliasSorting](docs/ExerciseAliasSorting.md)
+ - [ExerciseAliasType](docs/ExerciseAliasType.md)
  - [ExerciseOrdinalSetAssignmentData](docs/ExerciseOrdinalSetAssignmentData.md)
  - [ExerciseOrdinalSetAssignmentListResponse](docs/ExerciseOrdinalSetAssignmentListResponse.md)
  - [ExerciseOrdinalSetAssignmentListResponseMeta](docs/ExerciseOrdinalSetAssignmentListResponseMeta.md)
@@ -476,7 +478,9 @@ Method | HTTP request | Description
  - [FacilityAccessControlIPRangeResponse](docs/FacilityAccessControlIPRangeResponse.md)
  - [FacilityAccessControlIPRangeSorting](docs/FacilityAccessControlIPRangeSorting.md)
  - [FacilityAccessControlKioskData](docs/FacilityAccessControlKioskData.md)
+ - [FacilityAccessControlKioskPrimaryIdentification](docs/FacilityAccessControlKioskPrimaryIdentification.md)
  - [FacilityAccessControlKioskResponse](docs/FacilityAccessControlKioskResponse.md)
+ - [FacilityAccessControlKioskSecondaryIdentification](docs/FacilityAccessControlKioskSecondaryIdentification.md)
  - [FacilityAccessControlResponse](docs/FacilityAccessControlResponse.md)
  - [FacilityCardioMachineData](docs/FacilityCardioMachineData.md)
  - [FacilityCardioMachineListResponse](docs/FacilityCardioMachineListResponse.md)
@@ -485,7 +489,6 @@ Method | HTTP request | Description
  - [FacilityConfigurationData](docs/FacilityConfigurationData.md)
  - [FacilityConfigurationResponse](docs/FacilityConfigurationResponse.md)
  - [FacilityData](docs/FacilityData.md)
- - [FacilityEmployeeRole](docs/FacilityEmployeeRole.md)
  - [FacilityInBodyIntegrationData](docs/FacilityInBodyIntegrationData.md)
  - [FacilityInBodyIntegrationResponse](docs/FacilityInBodyIntegrationResponse.md)
  - [FacilityKioskTokenResponse](docs/FacilityKioskTokenResponse.md)
@@ -494,6 +497,7 @@ Method | HTTP request | Description
  - [FacilityLicenseListResponseMeta](docs/FacilityLicenseListResponseMeta.md)
  - [FacilityLicenseResponse](docs/FacilityLicenseResponse.md)
  - [FacilityLicenseSorting](docs/FacilityLicenseSorting.md)
+ - [FacilityLicenseType](docs/FacilityLicenseType.md)
  - [FacilityListResponse](docs/FacilityListResponse.md)
  - [FacilityListResponseMeta](docs/FacilityListResponseMeta.md)
  - [FacilityProfileData](docs/FacilityProfileData.md)
@@ -532,7 +536,7 @@ Method | HTTP request | Description
  - [FacilityUserRelationshipListResponseMeta](docs/FacilityUserRelationshipListResponseMeta.md)
  - [FacilityUserRelationshipSorting](docs/FacilityUserRelationshipSorting.md)
  - [FacilityUserResponse](docs/FacilityUserResponse.md)
- - [FingerprintData](docs/FingerprintData.md)
+ - [ForceUnit](docs/ForceUnit.md)
  - [HealthResponse](docs/HealthResponse.md)
  - [HeartRateDataPointData](docs/HeartRateDataPointData.md)
  - [HeartRateDataSetData](docs/HeartRateDataSetData.md)
@@ -546,6 +550,7 @@ Method | HTTP request | Description
  - [HeightMeasurementListResponseMeta](docs/HeightMeasurementListResponseMeta.md)
  - [HeightMeasurementResponse](docs/HeightMeasurementResponse.md)
  - [HeightMeasurementSorting](docs/HeightMeasurementSorting.md)
+ - [InBodyType](docs/InBodyType.md)
  - [KioskSessionResponse](docs/KioskSessionResponse.md)
  - [ListMeta](docs/ListMeta.md)
  - [MSeriesAppSessionData](docs/MSeriesAppSessionData.md)
@@ -553,17 +558,6 @@ Method | HTTP request | Description
  - [MSeriesAppSessionListResponse](docs/MSeriesAppSessionListResponse.md)
  - [MSeriesAppSessionListResponseMeta](docs/MSeriesAppSessionListResponseMeta.md)
  - [MSeriesAppSessionResponse](docs/MSeriesAppSessionResponse.md)
- - [MSeriesChallengeData](docs/MSeriesChallengeData.md)
- - [MSeriesChallengeListResponse](docs/MSeriesChallengeListResponse.md)
- - [MSeriesChallengeListResponseMeta](docs/MSeriesChallengeListResponseMeta.md)
- - [MSeriesChallengeParticipantData](docs/MSeriesChallengeParticipantData.md)
- - [MSeriesChallengeParticipantListResponse](docs/MSeriesChallengeParticipantListResponse.md)
- - [MSeriesChallengeParticipantListResponseMeta](docs/MSeriesChallengeParticipantListResponseMeta.md)
- - [MSeriesChallengeParticipantResponse](docs/MSeriesChallengeParticipantResponse.md)
- - [MSeriesChallengeParticipantSorting](docs/MSeriesChallengeParticipantSorting.md)
- - [MSeriesChallengeRelationship](docs/MSeriesChallengeRelationship.md)
- - [MSeriesChallengeResponse](docs/MSeriesChallengeResponse.md)
- - [MSeriesChallengeSorting](docs/MSeriesChallengeSorting.md)
  - [MSeriesDataPointData](docs/MSeriesDataPointData.md)
  - [MSeriesDataSetData](docs/MSeriesDataSetData.md)
  - [MSeriesDataSetListResponse](docs/MSeriesDataSetListResponse.md)
@@ -583,10 +577,10 @@ Method | HTTP request | Description
  - [MachineAdjustmentListResponse](docs/MachineAdjustmentListResponse.md)
  - [MachineAdjustmentListResponseMeta](docs/MachineAdjustmentListResponseMeta.md)
  - [MachineAdjustmentResponse](docs/MachineAdjustmentResponse.md)
+ - [MachineAdjustmentSorting](docs/MachineAdjustmentSorting.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
- - [MuscleIdentifier](docs/MuscleIdentifier.md)
  - [MuscleSorting](docs/MuscleSorting.md)
  - [MuscleTargetLevel](docs/MuscleTargetLevel.md)
  - [OAuthServiceData](docs/OAuthServiceData.md)
@@ -595,6 +589,7 @@ Method | HTTP request | Description
  - [OAuthServiceResponse](docs/OAuthServiceResponse.md)
  - [OAuthServiceSorting](docs/OAuthServiceSorting.md)
  - [OauthResponse](docs/OauthResponse.md)
+ - [OauthTokenResponse](docs/OauthTokenResponse.md)
  - [PrimaryEmailAddressData](docs/PrimaryEmailAddressData.md)
  - [PrimaryEmailAddressResponse](docs/PrimaryEmailAddressResponse.md)
  - [PrivilegedFacilityRelationshipRequestListResponse](docs/PrivilegedFacilityRelationshipRequestListResponse.md)
@@ -603,6 +598,7 @@ Method | HTTP request | Description
  - [ProfileData](docs/ProfileData.md)
  - [ProfileResponse](docs/ProfileResponse.md)
  - [RedirectResponse](docs/RedirectResponse.md)
+ - [ResistancePrecision](docs/ResistancePrecision.md)
  - [SessionData](docs/SessionData.md)
  - [SessionListResponse](docs/SessionListResponse.md)
  - [SessionListResponseMeta](docs/SessionListResponseMeta.md)
@@ -626,6 +622,7 @@ Method | HTTP request | Description
  - [SessionPlanSequenceResponse](docs/SessionPlanSequenceResponse.md)
  - [SessionPlanSequenceTemplateData](docs/SessionPlanSequenceTemplateData.md)
  - [SessionPlanSequenceTemplateListResponse](docs/SessionPlanSequenceTemplateListResponse.md)
+ - [SessionPlanSequenceTemplateMeta](docs/SessionPlanSequenceTemplateMeta.md)
  - [SessionPlanSequenceTemplateResponse](docs/SessionPlanSequenceTemplateResponse.md)
  - [SessionPlanSetData](docs/SessionPlanSetData.md)
  - [SessionPlanSetInstanceData](docs/SessionPlanSetInstanceData.md)
@@ -637,6 +634,7 @@ Method | HTTP request | Description
  - [SessionPlanSetTemplateListResponse](docs/SessionPlanSetTemplateListResponse.md)
  - [SessionPlanSetTemplateMeta](docs/SessionPlanSetTemplateMeta.md)
  - [SessionPlanSetTemplateResponse](docs/SessionPlanSetTemplateResponse.md)
+ - [SessionPlanSetType](docs/SessionPlanSetType.md)
  - [SessionPlanStrengthSetData](docs/SessionPlanStrengthSetData.md)
  - [SessionPlanStrengthSetTemplateData](docs/SessionPlanStrengthSetTemplateData.md)
  - [SessionPlanStretchSetData](docs/SessionPlanStretchSetData.md)
@@ -645,10 +643,10 @@ Method | HTTP request | Description
  - [SessionPlanTemplateListResponse](docs/SessionPlanTemplateListResponse.md)
  - [SessionPlanTemplateMeta](docs/SessionPlanTemplateMeta.md)
  - [SessionPlanTemplateResponse](docs/SessionPlanTemplateResponse.md)
- - [SessionPlansequenceTemplateMeta](docs/SessionPlansequenceTemplateMeta.md)
  - [SessionResponse](docs/SessionResponse.md)
  - [SessionSorting](docs/SessionSorting.md)
  - [SessionStartResponse](docs/SessionStartResponse.md)
+ - [Side](docs/Side.md)
  - [StatusResponse](docs/StatusResponse.md)
  - [StrengthExerciseCategory](docs/StrengthExerciseCategory.md)
  - [StrengthExerciseData](docs/StrengthExerciseData.md)
@@ -662,11 +660,14 @@ Method | HTTP request | Description
  - [StrengthExercisePlane](docs/StrengthExercisePlane.md)
  - [StrengthExerciseResponse](docs/StrengthExerciseResponse.md)
  - [StrengthExerciseSorting](docs/StrengthExerciseSorting.md)
+ - [StrengthExerciseVariantAttachment](docs/StrengthExerciseVariantAttachment.md)
  - [StrengthExerciseVariantData](docs/StrengthExerciseVariantData.md)
  - [StrengthExerciseVariantListResponse](docs/StrengthExerciseVariantListResponse.md)
  - [StrengthExerciseVariantListResponseMeta](docs/StrengthExerciseVariantListResponseMeta.md)
  - [StrengthExerciseVariantResponse](docs/StrengthExerciseVariantResponse.md)
  - [StrengthExerciseVariantSorting](docs/StrengthExerciseVariantSorting.md)
+ - [StrengthExerciseVariantType](docs/StrengthExerciseVariantType.md)
+ - [StrengthMachineAppType](docs/StrengthMachineAppType.md)
  - [StrengthMachineData](docs/StrengthMachineData.md)
  - [StrengthMachineDataSetData](docs/StrengthMachineDataSetData.md)
  - [StrengthMachineDataSetExportResponse](docs/StrengthMachineDataSetExportResponse.md)
@@ -679,6 +680,7 @@ Method | HTTP request | Description
  - [StrengthMachineHistoryListResponse](docs/StrengthMachineHistoryListResponse.md)
  - [StrengthMachineHistoryMeta](docs/StrengthMachineHistoryMeta.md)
  - [StrengthMachineInitializeResponse](docs/StrengthMachineInitializeResponse.md)
+ - [StrengthMachineLine](docs/StrengthMachineLine.md)
  - [StrengthMachineListResponse](docs/StrengthMachineListResponse.md)
  - [StrengthMachineListResponseMeta](docs/StrengthMachineListResponseMeta.md)
  - [StrengthMachineModelData](docs/StrengthMachineModelData.md)
@@ -686,6 +688,7 @@ Method | HTTP request | Description
  - [StrengthMachineProfileStatsResponse](docs/StrengthMachineProfileStatsResponse.md)
  - [StrengthMachineResponse](docs/StrengthMachineResponse.md)
  - [StrengthMachineSorting](docs/StrengthMachineSorting.md)
+ - [StrengthTestType](docs/StrengthTestType.md)
  - [StretchExerciseData](docs/StretchExerciseData.md)
  - [StretchExerciseListResponse](docs/StretchExerciseListResponse.md)
  - [StretchExerciseListResponseMeta](docs/StretchExerciseListResponseMeta.md)
@@ -699,7 +702,9 @@ Method | HTTP request | Description
  - [StretchExerciseVariantListResponseMeta](docs/StretchExerciseVariantListResponseMeta.md)
  - [StretchExerciseVariantResponse](docs/StretchExerciseVariantResponse.md)
  - [StretchExerciseVariantSorting](docs/StretchExerciseVariantSorting.md)
+ - [StretchExerciseVariantType](docs/StretchExerciseVariantType.md)
  - [SubscriptionResponse](docs/SubscriptionResponse.md)
+ - [TestSide](docs/TestSide.md)
  - [TimeResponse](docs/TimeResponse.md)
  - [UserApplicationAuthorizationData](docs/UserApplicationAuthorizationData.md)
  - [UserApplicationAuthorizationDeveloperListResponse](docs/UserApplicationAuthorizationDeveloperListResponse.md)

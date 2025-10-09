@@ -11,26 +11,9 @@ Name | Type | Description | Notes
 **facilityApproval** | **boolean** |  | [default to undefined]
 **member** | **boolean** |  | [default to undefined]
 **memberIdentifier** | **string** |  | [optional] [default to undefined]
-**employeeRole** | **string** |  | [optional] [default to undefined]
+**employeeRole** | [**EmployeeRole**](EmployeeRole.md) |  | [optional] [default to undefined]
 **facility** | [**FacilityData**](FacilityData.md) |  | [optional] [default to undefined]
 **user** | [**UserData**](UserData.md) |  | [optional] [default to undefined]
-
-
-
-## Enum: FacilityRelationshipRequestDataEmployeeRoleEnum
-
-
-* `Admin` (value: `'admin'`)
-
-* `CustomerSupport` (value: `'customerSupport'`)
-
-* `Trainer` (value: `'trainer'`)
-
-* `FrontDesk` (value: `'frontDesk'`)
-
-* `Maintenance` (value: `'maintenance'`)
-
-
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

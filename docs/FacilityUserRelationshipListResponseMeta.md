@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **employee** | **boolean** |  | [optional] [default to undefined]
 **name** | **string** |  | [optional] [default to undefined]
 **memberIdentifier** | **string** |  | [optional] [default to undefined]
-**employeeRole** | [**FacilityEmployeeRole**](FacilityEmployeeRole.md) |  | [optional] [default to undefined]
+**employeeRole** | [**EmployeeRole**](EmployeeRole.md) |  | [optional] [default to undefined]
 **includeSession** | **boolean** |  | [optional] [default to undefined]
 **sort** | [**FacilityUserRelationshipSorting**](FacilityUserRelationshipSorting.md) |  | [default to undefined]
 **facilityId** | **number** |  | [optional] [default to undefined]

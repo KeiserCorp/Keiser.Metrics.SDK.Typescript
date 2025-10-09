@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cardioExerciseId** | **number** |  | [optional] [default to undefined]
 **cardioMachineId** | **number** |  | [optional] [default to undefined]
-**variant** | **string** |  | [optional] [default to undefined]
+**variant** | [**CardioExerciseVariantType**](CardioExerciseVariantType.md) |  | [optional] [default to undefined]
 **sort** | [**CardioExerciseVariantSorting**](CardioExerciseVariantSorting.md) |  | [default to undefined]
 **ascending** | **boolean** |  | [optional] [default to undefined]
 **limit** | **number** |  | [optional] [default to undefined]

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**from** | **string** |  | [optional] [default to undefined]
-**to** | **string** |  | [optional] [default to undefined]
+**from** | **Date** |  | [optional] [default to undefined]
+**to** | **Date** |  | [optional] [default to undefined]
 **source** | **string** |  | [optional] [default to undefined]
 **sort** | [**MSeriesDataSetSorting**](MSeriesDataSetSorting.md) |  | [default to undefined]
 **userId** | **number** |  | [optional] [default to undefined]

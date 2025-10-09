@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**from** | **string** |  | [optional] [default to undefined]
-**to** | **string** |  | [optional] [default to undefined]
+**from** | **Date** |  | [optional] [default to undefined]
+**to** | **Date** |  | [optional] [default to undefined]
 **open** | **boolean** |  | [optional] [default to undefined]
 **sort** | [**SessionSorting**](SessionSorting.md) |  | [default to undefined]
 **userId** | **number** |  | [optional] [default to undefined]
