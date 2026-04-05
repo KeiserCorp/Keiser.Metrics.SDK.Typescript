@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-typescript@5.1.4
+## @keiser/metrics-sdk-typescript@5.3.3
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-typescript@5.1.4 --save
+npm install @keiser/metrics-sdk-typescript@5.3.3 --save
 ```
 
 
@@ -55,7 +55,7 @@ try {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://metrics-api-v3.keiser.com/api*
+All URIs are relative to *https://metrics-api.keiser.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -202,7 +202,7 @@ Method | HTTP request | Description
 [**facilityStrengthMachineDelete**](docs/MetricsApi.md#facilityStrengthMachineDelete) | **DELETE** /facility/strength-machine/{id} | Delete a facility strength machine
 [**facilityStrengthMachineInitializerOTP**](docs/MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
 [**facilityStrengthMachineInitializerToken**](docs/MetricsApi.md#facilityStrengthMachineInitializerToken) | **GET** /facility/strength-machine/initializer-token | Show facility strength machine initializer token
-[**facilityStrengthMachineList**](docs/MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines
+[**facilityStrengthMachineList**](docs/MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines (requires maintenance access)
 [**facilityStrengthMachineMaintenanceRecordCreate**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordCreate) | **POST** /facility/strength-machine/maintenance-record | Create a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordDelete**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordDelete) | **DELETE** /facility/strength-machine/maintenance-record/{id} | Delete a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordList**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordList) | **GET** /facility/strength-machine/maintenance-record/list | List maintenance records for facility strength machines
@@ -248,6 +248,7 @@ Method | HTTP request | Description
 [**machineAdjustmentList**](docs/MetricsApi.md#machineAdjustmentList) | **GET** /user/machine-adjustment/list | List user machine adjustments
 [**machineAdjustmentShow**](docs/MetricsApi.md#machineAdjustmentShow) | **GET** /user/machine-adjustment | Shows a users machine adjustments
 [**machineAdjustmentUpdate**](docs/MetricsApi.md#machineAdjustmentUpdate) | **PUT** /user/machine-adjustment/{id} | Update a users machine adjustments
+[**metaServiceStatus**](docs/MetricsApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**oauthAuthorize**](docs/MetricsApi.md#oauthAuthorize) | **POST** /oauth/authorize | Authorizes a third party application
 [**oauthDeauthorize**](docs/MetricsApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](docs/MetricsApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
@@ -578,6 +579,7 @@ Method | HTTP request | Description
  - [MachineAdjustmentListResponseMeta](docs/MachineAdjustmentListResponseMeta.md)
  - [MachineAdjustmentResponse](docs/MachineAdjustmentResponse.md)
  - [MachineAdjustmentSorting](docs/MachineAdjustmentSorting.md)
+ - [MaintenanceStatus](docs/MaintenanceStatus.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
@@ -599,6 +601,7 @@ Method | HTTP request | Description
  - [ProfileResponse](docs/ProfileResponse.md)
  - [RedirectResponse](docs/RedirectResponse.md)
  - [ResistancePrecision](docs/ResistancePrecision.md)
+ - [ServiceStatusResponse](docs/ServiceStatusResponse.md)
  - [SessionData](docs/SessionData.md)
  - [SessionListResponse](docs/SessionListResponse.md)
  - [SessionListResponseMeta](docs/SessionListResponseMeta.md)

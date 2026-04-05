@@ -1,6 +1,6 @@
 # MetricsApi
 
-All URIs are relative to *https://metrics-api-v3.keiser.com/api*
+All URIs are relative to *https://metrics-api.keiser.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -147,7 +147,7 @@ Method | HTTP request | Description
 [**facilityStrengthMachineDelete**](MetricsApi.md#facilityStrengthMachineDelete) | **DELETE** /facility/strength-machine/{id} | Delete a facility strength machine
 [**facilityStrengthMachineInitializerOTP**](MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
 [**facilityStrengthMachineInitializerToken**](MetricsApi.md#facilityStrengthMachineInitializerToken) | **GET** /facility/strength-machine/initializer-token | Show facility strength machine initializer token
-[**facilityStrengthMachineList**](MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines
+[**facilityStrengthMachineList**](MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines (requires maintenance access)
 [**facilityStrengthMachineMaintenanceRecordCreate**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordCreate) | **POST** /facility/strength-machine/maintenance-record | Create a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordDelete**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordDelete) | **DELETE** /facility/strength-machine/maintenance-record/{id} | Delete a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordList**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordList) | **GET** /facility/strength-machine/maintenance-record/list | List maintenance records for facility strength machines
@@ -193,6 +193,7 @@ Method | HTTP request | Description
 [**machineAdjustmentList**](MetricsApi.md#machineAdjustmentList) | **GET** /user/machine-adjustment/list | List user machine adjustments
 [**machineAdjustmentShow**](MetricsApi.md#machineAdjustmentShow) | **GET** /user/machine-adjustment | Shows a users machine adjustments
 [**machineAdjustmentUpdate**](MetricsApi.md#machineAdjustmentUpdate) | **PUT** /user/machine-adjustment/{id} | Update a users machine adjustments
+[**metaServiceStatus**](MetricsApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**oauthAuthorize**](MetricsApi.md#oauthAuthorize) | **POST** /oauth/authorize | Authorizes a third party application
 [**oauthDeauthorize**](MetricsApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
 [**oauthInitiate**](MetricsApi.md#oauthInitiate) | **POST** /oauth/initiate/{service} | Initiates OAuth access request and return parameters
@@ -10651,6 +10652,51 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **metaServiceStatus**
+> ServiceStatusResponse metaServiceStatus()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiMetaServiceStatusRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.metaServiceStatus(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**ServiceStatusResponse**
+
+### Authorization
+
+No authorization required
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **oauthAuthorize**
 > OauthResponse oauthAuthorize()
 
@@ -16748,8 +16794,8 @@ const api = new MetricsApi();
 let body:MetricsApiStretchExerciseListRequest = {
   // boolean (optional)
   ascending: true,
-  // number (optional)
-  defaultAlias: 8.14,
+  // string (optional)
+  defaultAlias: defaultAlias_example,
   // number (optional)
   limit: 8.14,
   // number (optional)
@@ -16774,7 +16820,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ascending** | [**boolean**] |  | (optional) defaults to true
- **defaultAlias** | [**number**] |  | (optional) defaults to undefined
+ **defaultAlias** | [**string**] |  | (optional) defaults to undefined
  **limit** | [**number**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
  **sort** | [**string**] | Allowed values: id, defaultAlias | (optional) defaults to 'id'
