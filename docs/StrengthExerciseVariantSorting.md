@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `Variant` (value: `'variant'`)
+* `variant` (value: `'variant'`)
 
-* `Attachment` (value: `'attachment'`)
+* `attachment` (value: `'attachment'`)
 
-* `EquipmentMechanicalMovement` (value: `'equipmentMechanicalMovement'`)
+* `equipmentMechanicalMovement` (value: `'equipmentMechanicalMovement'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

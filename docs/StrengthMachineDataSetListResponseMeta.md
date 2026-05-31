@@ -4,6 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**query** | **string** |  | [optional] [default to undefined]
 **from** | **Date** |  | [optional] [default to undefined]
 **to** | **Date** |  | [optional] [default to undefined]
 **sort** | [**StrengthMachineDataSetSorting**](StrengthMachineDataSetSorting.md) |  | [default to undefined]

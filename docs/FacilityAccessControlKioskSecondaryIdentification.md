@@ -3,15 +3,15 @@
 ## Enum
 
 
-* `None` (value: `'none'`)
+* `none` (value: `'none'`)
 
-* `Uuid` (value: `'uuid'`)
+* `uuid` (value: `'uuid'`)
 
-* `MemberIdentifier` (value: `'memberIdentifier'`)
+* `memberIdentifier` (value: `'memberIdentifier'`)
 
-* `YearOfBirth` (value: `'yearOfBirth'`)
+* `yearOfBirth` (value: `'yearOfBirth'`)
 
-* `MemberSecret` (value: `'memberSecret'`)
+* `memberSecret` (value: `'memberSecret'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

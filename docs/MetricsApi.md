@@ -93,6 +93,14 @@ Method | HTTP request | Description
 [**facilityConfigurationSubscribe**](MetricsApi.md#facilityConfigurationSubscribe) | **GET** /facilityConfiguration/subscribe | Subscribe to facility configuration
 [**facilityConfigurationUpdate**](MetricsApi.md#facilityConfigurationUpdate) | **PUT** /facility/configuration | Update a facility configuration
 [**facilityCreate**](MetricsApi.md#facilityCreate) | **POST** /facility | Create a facility
+[**facilityDisplayConfigurationShow**](MetricsApi.md#facilityDisplayConfigurationShow) | **GET** /facility-display-configuration | Show a facility display configuration
+[**facilityDisplayConfigurationSubscribe**](MetricsApi.md#facilityDisplayConfigurationSubscribe) | **GET** /facility-display-configuration/subscribe | Subscribe to facility display configuration
+[**facilityDisplayConfigurationUpdate**](MetricsApi.md#facilityDisplayConfigurationUpdate) | **PUT** /facility-display-configuration | Update a facility display configuration
+[**facilityHubClaim**](MetricsApi.md#facilityHubClaim) | **POST** /facility/hub/claim | Claim a registered hub for a facility using its pairing code
+[**facilityHubDelete**](MetricsApi.md#facilityHubDelete) | **DELETE** /facility/hub/{facilityHubId} | Delete a facility hub and revoke its tokens
+[**facilityHubLinkStatus**](MetricsApi.md#facilityHubLinkStatus) | **GET** /facility/hub/link-status | Check the status of a hub link pairing code
+[**facilityHubList**](MetricsApi.md#facilityHubList) | **GET** /facility/hub/list | List hubs for a facility
+[**facilityHubUpdate**](MetricsApi.md#facilityHubUpdate) | **PUT** /facility/hub/{facilityHubId} | Update a facility hub
 [**facilityInBodyIntegrationCreate**](MetricsApi.md#facilityInBodyIntegrationCreate) | **POST** /facility/inbody-integration | Create a facility InBody integration
 [**facilityInBodyIntegrationDelete**](MetricsApi.md#facilityInBodyIntegrationDelete) | **DELETE** /facility/inbody-integration | Delete a facility InBody integration
 [**facilityInBodyIntegrationShow**](MetricsApi.md#facilityInBodyIntegrationShow) | **GET** /facility/inbody-integration | Show a facility InBody integration settings
@@ -105,6 +113,10 @@ Method | HTTP request | Description
 [**facilityLicenseList**](MetricsApi.md#facilityLicenseList) | **GET** /facility/license/list | List facility licenses
 [**facilityLicenseShow**](MetricsApi.md#facilityLicenseShow) | **GET** /facility/license | Show a facility license
 [**facilityList**](MetricsApi.md#facilityList) | **GET** /facility/list | List facilities
+[**facilityPinDelete**](MetricsApi.md#facilityPinDelete) | **DELETE** /facility/pin | Remove the facility member identifier (PIN)
+[**facilityPinLogin**](MetricsApi.md#facilityPinLogin) | **POST** /facility/pin/login | Login a facility user using a PIN
+[**facilityPinShow**](MetricsApi.md#facilityPinShow) | **GET** /facility/pin | Show the facility PIN for a user
+[**facilityPinUpdate**](MetricsApi.md#facilityPinUpdate) | **PUT** /facility/pin | Set or update a facility member identifier (PIN)
 [**facilityProfileShow**](MetricsApi.md#facilityProfileShow) | **GET** /facility/profile | Show facility profile
 [**facilityProfileUpdate**](MetricsApi.md#facilityProfileUpdate) | **PUT** /facility/profile | Update a facility profile
 [**facilityRelationshipFacilityCreate**](MetricsApi.md#facilityRelationshipFacilityCreate) | **POST** /facility/relationship | Create a user with a facility relationship
@@ -113,6 +125,15 @@ Method | HTTP request | Description
 [**facilityRelationshipFacilityShow**](MetricsApi.md#facilityRelationshipFacilityShow) | **GET** /facility/relationship | Show a facility\&#39;s user relationship
 [**facilityRelationshipFacilitySubscribe**](MetricsApi.md#facilityRelationshipFacilitySubscribe) | **GET** /facilityRelationship/facilitySubscribe | Subscribe to changes to facility relationship
 [**facilityRelationshipFacilityUpdate**](MetricsApi.md#facilityRelationshipFacilityUpdate) | **PUT** /facility/relationship/{id} | Update a facility\&#39;s user relationship
+[**facilityRelationshipNovaMemberBulkCreate**](MetricsApi.md#facilityRelationshipNovaMemberBulkCreate) | **POST** /facility/relationship/nova/member/bulk | Bulk-create Nova-style members within the session facility from a CSV file
+[**facilityRelationshipNovaMemberCreate**](MetricsApi.md#facilityRelationshipNovaMemberCreate) | **POST** /facility/relationship/nova/member | Create a Nova-style member (no email, no credential) within the session facility
+[**facilityRelationshipNovaMemberDelete**](MetricsApi.md#facilityRelationshipNovaMemberDelete) | **DELETE** /facility/relationship/nova/member/{facilityRelationshipId} | Fully delete a Nova member
+[**facilityRelationshipNovaMemberUpdate**](MetricsApi.md#facilityRelationshipNovaMemberUpdate) | **PUT** /facility/relationship/nova/member/{facilityRelationshipId} | Update a Nova member relationship and profile fields
+[**facilityRelationshipNovaStaffDeactivate**](MetricsApi.md#facilityRelationshipNovaStaffDeactivate) | **POST** /facility/relationship/nova/staff/{facilityRelationshipId}/deactivate | Deactivate a facility relationship
+[**facilityRelationshipNovaStaffDelete**](MetricsApi.md#facilityRelationshipNovaStaffDelete) | **DELETE** /facility/relationship/nova/staff/{facilityRelationshipId} | Fully delete a Nova staff member (account purge).
+[**facilityRelationshipNovaStaffInvite**](MetricsApi.md#facilityRelationshipNovaStaffInvite) | **POST** /facility/relationship/nova/staff/invite | Invite a nova staff member by email
+[**facilityRelationshipNovaStaffReactivate**](MetricsApi.md#facilityRelationshipNovaStaffReactivate) | **POST** /facility/relationship/nova/staff/{facilityRelationshipId}/reactivate | Reactivate a facility relationship
+[**facilityRelationshipNovaStaffUpdate**](MetricsApi.md#facilityRelationshipNovaStaffUpdate) | **PUT** /facility/relationship/nova/staff/{facilityRelationshipId} | Update a Nova staff relationship and profile fields
 [**facilityRelationshipRequestFacilityCreate**](MetricsApi.md#facilityRelationshipRequestFacilityCreate) | **POST** /facility/relationship-request | Create a facility relationship request (Facility to User)
 [**facilityRelationshipRequestFacilityList**](MetricsApi.md#facilityRelationshipRequestFacilityList) | **GET** /facility/relationship-request/list | List facility relationship requests (User to Facility)
 [**facilityRelationshipRequestFacilityShow**](MetricsApi.md#facilityRelationshipRequestFacilityShow) | **GET** /facility/relationship-request | Show a facility relationship request (User to Facility)
@@ -139,15 +160,17 @@ Method | HTTP request | Description
 [**facilitySessionSubscribe**](MetricsApi.md#facilitySessionSubscribe) | **GET** /facilitySession/subscribe | Subscribe to changes to a facilities\&#39;s session
 [**facilitySessionUpdate**](MetricsApi.md#facilitySessionUpdate) | **PUT** /facility/session/{echipId} | Update a user session from a facility using an eChip Id
 [**facilityShow**](MetricsApi.md#facilityShow) | **GET** /facility | Show a facility
+[**facilityStrengthMachineBlacklist**](MetricsApi.md#facilityStrengthMachineBlacklist) | **POST** /facility/strength-machine/{id}/blacklist | Blacklist a facility strength machine\&#39;s tokens
 [**facilityStrengthMachineConfigurationShow**](MetricsApi.md#facilityStrengthMachineConfigurationShow) | **GET** /facility/strength-machine/configuration | Show a facility strength machine default configuration
 [**facilityStrengthMachineConfigurationSubscribe**](MetricsApi.md#facilityStrengthMachineConfigurationSubscribe) | **GET** /facilityStrengthMachineConfiguration/subscribe | Subscribe to changes to facility strength machine configuration
 [**facilityStrengthMachineConfigurationUpdate**](MetricsApi.md#facilityStrengthMachineConfigurationUpdate) | **PUT** /facility/strength-machine/configuration | Update a facility strength machine configuration
-[**facilityStrengthMachineCreate**](MetricsApi.md#facilityStrengthMachineCreate) | **POST** /facility/strength-machine/{strengthMachineId} | Create a facility strength machine
+[**facilityStrengthMachineCreate**](MetricsApi.md#facilityStrengthMachineCreate) | **POST** /facility/strength-machine | Create a facility strength machine
 [**facilityStrengthMachineCreateEchip**](MetricsApi.md#facilityStrengthMachineCreateEchip) | **POST** /facility/strength-machine/echip | Creates facility strength machines using eChip data
 [**facilityStrengthMachineDelete**](MetricsApi.md#facilityStrengthMachineDelete) | **DELETE** /facility/strength-machine/{id} | Delete a facility strength machine
 [**facilityStrengthMachineInitializerOTP**](MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
 [**facilityStrengthMachineInitializerToken**](MetricsApi.md#facilityStrengthMachineInitializerToken) | **GET** /facility/strength-machine/initializer-token | Show facility strength machine initializer token
 [**facilityStrengthMachineList**](MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines (requires maintenance access)
+[**facilityStrengthMachineMachineStartSession**](MetricsApi.md#facilityStrengthMachineMachineStartSession) | **POST** /facility/strength-machine/machine/start-session | Exchange a machine initialization token for a short-lived machine session token
 [**facilityStrengthMachineMaintenanceRecordCreate**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordCreate) | **POST** /facility/strength-machine/maintenance-record | Create a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordDelete**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordDelete) | **DELETE** /facility/strength-machine/maintenance-record/{id} | Delete a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordList**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordList) | **GET** /facility/strength-machine/maintenance-record/list | List maintenance records for facility strength machines
@@ -188,11 +211,13 @@ Method | HTTP request | Description
 [**mSeriesFtpMeasurementList**](MetricsApi.md#mSeriesFtpMeasurementList) | **GET** /m-series/ftp-measurement/list | List a user\&#39;s M Series FTP measurements
 [**mSeriesFtpMeasurementShow**](MetricsApi.md#mSeriesFtpMeasurementShow) | **GET** /m-series/ftp-measurement | Show a user\&#39;s M Series FTP measurement
 [**mSeriesProfileStatsShow**](MetricsApi.md#mSeriesProfileStatsShow) | **GET** /m-series/profile-stats | Show a user\&#39;s M Series data set
-[**machineAdjustmentCreate**](MetricsApi.md#machineAdjustmentCreate) | **POST** /user/machine-adjustment | Create a user machine adjustment
-[**machineAdjustmentDelete**](MetricsApi.md#machineAdjustmentDelete) | **DELETE** /user/machine-adjustment/{id} | Delete a users machine adjustment
-[**machineAdjustmentList**](MetricsApi.md#machineAdjustmentList) | **GET** /user/machine-adjustment/list | List user machine adjustments
-[**machineAdjustmentShow**](MetricsApi.md#machineAdjustmentShow) | **GET** /user/machine-adjustment | Shows a users machine adjustments
-[**machineAdjustmentUpdate**](MetricsApi.md#machineAdjustmentUpdate) | **PUT** /user/machine-adjustment/{id} | Update a users machine adjustments
+[**machineClaimClaim**](MetricsApi.md#machineClaimClaim) | **POST** /machine-claim/claim | Claim a single machine for a facility
+[**machineClaimConfirm**](MetricsApi.md#machineClaimConfirm) | **POST** /machine-claim/confirm | Confirm a claimed machine and receive permanent token
+[**machineClaimList**](MetricsApi.md#machineClaimList) | **GET** /machine-claim/list | List machine claims for a facility
+[**machineClaimRegister**](MetricsApi.md#machineClaimRegister) | **POST** /machine-claim/register | Register a machine for facility claiming
+[**machineClaimShow**](MetricsApi.md#machineClaimShow) | **GET** /machine-claim/show | Show a machine claim for a facility
+[**machineClaimStatus**](MetricsApi.md#machineClaimStatus) | **GET** /machine-claim/status | Check claim status for a machine
+[**machineClaimUnclaim**](MetricsApi.md#machineClaimUnclaim) | **DELETE** /machine-claim/unclaim | Unclaim a machine that has not yet been confirmed
 [**metaServiceStatus**](MetricsApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**oauthAuthorize**](MetricsApi.md#oauthAuthorize) | **POST** /oauth/authorize | Authorizes a third party application
 [**oauthDeauthorize**](MetricsApi.md#oauthDeauthorize) | **DELETE** /oauth/deauthorize | Deauthorizes an oauth user
@@ -288,8 +313,10 @@ Method | HTTP request | Description
 [**strengthMachineDataSetDelete**](MetricsApi.md#strengthMachineDataSetDelete) | **DELETE** /strength-machine-data-set/{id} | Delete a strength machine data set
 [**strengthMachineDataSetExport**](MetricsApi.md#strengthMachineDataSetExport) | **GET** /strength-machine-data-set/{id}/export/{format} | Export an A500 strength machine data set
 [**strengthMachineDataSetExportFlat**](MetricsApi.md#strengthMachineDataSetExportFlat) | **GET** /user/{userId}/strength-machine-data-set/export/{filename} | Export an A500 strength machine data set as a flat file
+[**strengthMachineDataSetFacilityDelete**](MetricsApi.md#strengthMachineDataSetFacilityDelete) | **DELETE** /facility/strength-machine-data-set/{id} | Delete a strength machine data set
 [**strengthMachineDataSetList**](MetricsApi.md#strengthMachineDataSetList) | **GET** /strength-machine-data-set/list | List strength machine data sets
 [**strengthMachineDataSetShow**](MetricsApi.md#strengthMachineDataSetShow) | **GET** /strength-machine-data-set | Show a strength machine data set
+[**strengthMachineDataSetShowLastSetMetaData**](MetricsApi.md#strengthMachineDataSetShowLastSetMetaData) | **GET** /strength-machine-data-set/last-set-meta-data | Show metadata from the last recorded set on a strength machine
 [**strengthMachineDataSetSubscribe**](MetricsApi.md#strengthMachineDataSetSubscribe) | **GET** /strengthMachineDataSet/subscribe | Subscribe to strength machine data set changes
 [**strengthMachineDataSetUpdate**](MetricsApi.md#strengthMachineDataSetUpdate) | **PUT** /strength-machine-data-set/{id}/{sessionId} | Update a strength machine data set
 [**strengthMachineHistoryList**](MetricsApi.md#strengthMachineHistoryList) | **GET** /strength-machine-history | List strength machines used by user
@@ -324,6 +351,11 @@ Method | HTTP request | Description
 [**userInBodyIntegrationDelete**](MetricsApi.md#userInBodyIntegrationDelete) | **DELETE** /user/{userId}/inbody-integration | Delete a user InBody integration
 [**userInBodyIntegrationShow**](MetricsApi.md#userInBodyIntegrationShow) | **GET** /user/{userId}/inbody-integration | Show a user InBody integration settings
 [**userInBodyIntegrationSync**](MetricsApi.md#userInBodyIntegrationSync) | **GET** /user/{userId}/inbody-integration/sync | Request a sync of user InBody data
+[**userSessionDisplayConfigurationCreate**](MetricsApi.md#userSessionDisplayConfigurationCreate) | **POST** /user-session-display-configuration | Create a user session display configuration
+[**userSessionDisplayConfigurationDelete**](MetricsApi.md#userSessionDisplayConfigurationDelete) | **DELETE** /user-session-display-configuration | Delete a user session display configuration
+[**userSessionDisplayConfigurationList**](MetricsApi.md#userSessionDisplayConfigurationList) | **GET** /user-session-display-configuration/list | List a user\&#39;s session display configurations
+[**userSessionDisplayConfigurationShow**](MetricsApi.md#userSessionDisplayConfigurationShow) | **GET** /user-session-display-configuration | Show a user session display configuration
+[**userSessionDisplayConfigurationUpdate**](MetricsApi.md#userSessionDisplayConfigurationUpdate) | **PUT** /user-session-display-configuration | Update a user session display configuration
 [**userShow**](MetricsApi.md#userShow) | **GET** /user | Show a user
 [**userSubscribe**](MetricsApi.md#userSubscribe) | **GET** /user/subscribe | Subscribe to changes to a user
 [**weightMeasurementCreate**](MetricsApi.md#weightMeasurementCreate) | **POST** /user/weight-measurement | Create a user weight measurement
@@ -333,6 +365,12 @@ Method | HTTP request | Description
 [**weightMeasurementList**](MetricsApi.md#weightMeasurementList) | **GET** /user/weight-measurement/list | List a user\&#39;s weight measurements
 [**weightMeasurementShow**](MetricsApi.md#weightMeasurementShow) | **GET** /user/weight-measurement | Show a user\&#39;s weight measurement
 [**weightMeasurementSubscribe**](MetricsApi.md#weightMeasurementSubscribe) | **GET** /weightMeasurement/subscribe | Subscribe to changes to user\&#39;s weight measurements
+[**workoutSetBulkExport**](MetricsApi.md#workoutSetBulkExport) | **GET** /workout-set/bulk-export | Export many A400 workout sets across a date range as a zip of reps.csv + time_series.csv
+[**workoutSetCreate**](MetricsApi.md#workoutSetCreate) | **POST** /workout-set | Create a workout set from an Apollo Display device (machine-token auth).
+[**workoutSetExport**](MetricsApi.md#workoutSetExport) | **GET** /workout-set/export | Export one A400 workout set as a zip of reps.csv + time_series.csv
+[**workoutSetList**](MetricsApi.md#workoutSetList) | **GET** /workout-set/list | List A400 workout sets for a facility
+[**workoutSetShow**](MetricsApi.md#workoutSetShow) | **GET** /workout-set | Show an A400 workout set
+[**workoutSetUpdate**](MetricsApi.md#workoutSetUpdate) | **PUT** /workout-set | Update an existing workout set from an Apollo Display device (machine-token auth).
 
 
 # **a500CreateSet**
@@ -5093,6 +5131,444 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **facilityDisplayConfigurationShow**
+> FacilityDisplayConfigurationResponse facilityDisplayConfigurationShow()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityDisplayConfigurationShowRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityDisplayConfigurationShow(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityDisplayConfigurationResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityDisplayConfigurationSubscribe**
+> SubscriptionResponse facilityDisplayConfigurationSubscribe()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityDisplayConfigurationSubscribeRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityDisplayConfigurationSubscribe(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**SubscriptionResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityDisplayConfigurationUpdate**
+> FacilityDisplayConfigurationResponse facilityDisplayConfigurationUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityDisplayConfigurationUpdateRequest = {
+  // number (optional)
+  addedMass: 8.14,
+  // string (optional)
+  dataMode: dataMode_example,
+  // number (optional)
+  defaultBrightness: 8.14,
+  // string (optional)
+  focusMode: focusMode_example,
+  // boolean (optional)
+  isTorqueEnabled: true,
+  // boolean (optional)
+  machinesEnabled: true,
+  // string (optional)
+  operatingSchedule: operatingSchedule_example,
+  // boolean (optional)
+  operatingScheduleEnabled: true,
+  // number (optional)
+  performanceDropOff: 8.14,
+  // boolean (optional)
+  qrCodeEnabled: true,
+  // number (optional)
+  secondsDelay: 8.14,
+  // boolean (optional)
+  shouldForceExercise: true,
+  // boolean (optional)
+  showReviewScreen: true,
+  // number (optional)
+  signoutDelay: 8.14,
+  // string (optional)
+  timeZone: timeZone_example,
+  // string (optional)
+  unit: unit_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityDisplayConfigurationUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **addedMass** | [**number**] |  | (optional) defaults to undefined
+ **dataMode** | [**string**] | Allowed values: power, velocity | (optional) defaults to undefined
+ **defaultBrightness** | [**number**] |  | (optional) defaults to undefined
+ **focusMode** | [**string**] | Allowed values: mean, peak | (optional) defaults to undefined
+ **isTorqueEnabled** | [**boolean**] |  | (optional) defaults to undefined
+ **machinesEnabled** | [**boolean**] |  | (optional) defaults to undefined
+ **operatingSchedule** | [**string**] |  | (optional) defaults to undefined
+ **operatingScheduleEnabled** | [**boolean**] |  | (optional) defaults to undefined
+ **performanceDropOff** | [**number**] |  | (optional) defaults to undefined
+ **qrCodeEnabled** | [**boolean**] |  | (optional) defaults to undefined
+ **secondsDelay** | [**number**] |  | (optional) defaults to undefined
+ **shouldForceExercise** | [**boolean**] |  | (optional) defaults to undefined
+ **showReviewScreen** | [**boolean**] |  | (optional) defaults to undefined
+ **signoutDelay** | [**number**] |  | (optional) defaults to undefined
+ **timeZone** | [**string**] | Allowed values: Africa/Abidjan, Africa/Accra, Africa/Addis_Ababa, Africa/Algiers, Africa/Asmara, Africa/Asmera, Africa/Bamako, Africa/Bangui, Africa/Banjul, Africa/Bissau, Africa/Blantyre, Africa/Brazzaville, Africa/Bujumbura, Africa/Cairo, Africa/Casablanca, Africa/Ceuta, Africa/Conakry, Africa/Dakar, Africa/Dar_es_Salaam, Africa/Djibouti, Africa/Douala, Africa/El_Aaiun, Africa/Freetown, Africa/Gaborone, Africa/Harare, Africa/Johannesburg, Africa/Juba, Africa/Kampala, Africa/Khartoum, Africa/Kigali, Africa/Kinshasa, Africa/Lagos, Africa/Libreville, Africa/Lome, Africa/Luanda, Africa/Lubumbashi, Africa/Lusaka, Africa/Malabo, Africa/Maputo, Africa/Maseru, Africa/Mbabane, Africa/Mogadishu, Africa/Monrovia, Africa/Nairobi, Africa/Ndjamena, Africa/Niamey, Africa/Nouakchott, Africa/Ouagadougou, Africa/Porto-Novo, Africa/Sao_Tome, Africa/Timbuktu, Africa/Tripoli, Africa/Tunis, Africa/Windhoek, America/Adak, America/Anchorage, America/Anguilla, America/Antigua, America/Araguaina, America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/ComodRivadavia, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia, America/Aruba, America/Asuncion, America/Atikokan, America/Atka, America/Bahia, America/Bahia_Banderas, America/Barbados, America/Belem, America/Belize, America/Blanc-Sablon, America/Boa_Vista, America/Bogota, America/Boise, America/Buenos_Aires, America/Cambridge_Bay, America/Campo_Grande, America/Cancun, America/Caracas, America/Catamarca, America/Cayenne, America/Cayman, America/Chicago, America/Chihuahua, America/Coral_Harbour, America/Cordoba, America/Costa_Rica, America/Creston, America/Cuiaba, America/Curacao, America/Danmarkshavn, America/Dawson, America/Dawson_Creek, America/Denver, America/Detroit, America/Dominica, America/Edmonton, America/Eirunepe, America/El_Salvador, America/Ensenada, America/Fort_Nelson, America/Fort_Wayne, America/Fortaleza, America/Glace_Bay, America/Godthab, America/Goose_Bay, America/Grand_Turk, America/Grenada, America/Guadeloupe, America/Guatemala, America/Guayaquil, America/Guyana, America/Halifax, America/Havana, America/Hermosillo, America/Indiana/Indianapolis, America/Indiana/Knox, America/Indiana/Marengo, America/Indiana/Petersburg, America/Indiana/Tell_City, America/Indiana/Vevay, America/Indiana/Vincennes, America/Indiana/Winamac, America/Indianapolis, America/Inuvik, America/Iqaluit, America/Jamaica, America/Jujuy, America/Juneau, America/Kentucky/Louisville, America/Kentucky/Monticello, America/Knox_IN, America/Kralendijk, America/La_Paz, America/Lima, America/Los_Angeles, America/Louisville, America/Lower_Princes, America/Maceio, America/Managua, America/Manaus, America/Marigot, America/Martinique, America/Matamoros, America/Mazatlan, America/Mendoza, America/Menominee, America/Merida, America/Metlakatla, America/Mexico_City, America/Miquelon, America/Moncton, America/Monterrey, America/Montevideo, America/Montreal, America/Montserrat, America/Nassau, America/New_York, America/Nipigon, America/Nome, America/Noronha, America/North_Dakota/Beulah, America/North_Dakota/Center, America/North_Dakota/New_Salem, America/Ojinaga, America/Panama, America/Pangnirtung, America/Paramaribo, America/Phoenix, America/Port-au-Prince, America/Port_of_Spain, America/Porto_Acre, America/Porto_Velho, America/Puerto_Rico, America/Rainy_River, America/Rankin_Inlet, America/Recife, America/Regina, America/Resolute, America/Rio_Branco, America/Rosario, America/Santa_Isabel, America/Santarem, America/Santiago, America/Santo_Domingo, America/Sao_Paulo, America/Scoresbysund, America/Shiprock, America/Sitka, America/St_Barthelemy, America/St_Johns, America/St_Kitts, America/St_Lucia, America/St_Thomas, America/St_Vincent, America/Swift_Current, America/Tegucigalpa, America/Thule, America/Thunder_Bay, America/Tijuana, America/Toronto, America/Tortola, America/Vancouver, America/Virgin, America/Whitehorse, America/Winnipeg, America/Yakutat, America/Yellowknife, Antarctica/Casey, Antarctica/Davis, Antarctica/DumontDUrville, Antarctica/Macquarie, Antarctica/Mawson, Antarctica/McMurdo, Antarctica/Palmer, Antarctica/Rothera, Antarctica/South_Pole, Antarctica/Syowa, Antarctica/Troll, Antarctica/Vostok, Arctic/Longyearbyen, Asia/Aden, Asia/Almaty, Asia/Amman, Asia/Anadyr, Asia/Aqtau, Asia/Aqtobe, Asia/Ashgabat, Asia/Ashkhabad, Asia/Atyrau, Asia/Baghdad, Asia/Bahrain, Asia/Baku, Asia/Bangkok, Asia/Barnaul, Asia/Beirut, Asia/Bishkek, Asia/Brunei, Asia/Calcutta, Asia/Chita, Asia/Choibalsan, Asia/Chongqing, Asia/Chungking, Asia/Colombo, Asia/Dacca, Asia/Damascus, Asia/Dhaka, Asia/Dili, Asia/Dubai, Asia/Dushanbe, Asia/Famagusta, Asia/Gaza, Asia/Hanoi, Asia/Harbin, Asia/Hebron, Asia/Ho_Chi_Minh, Asia/Hong_Kong, Asia/Hovd, Asia/Irkutsk, Asia/Istanbul, Asia/Jakarta, Asia/Jayapura, Asia/Jerusalem, Asia/Kabul, Asia/Kamchatka, Asia/Karachi, Asia/Kashgar, Asia/Kathmandu, Asia/Katmandu, Asia/Khandyga, Asia/Kolkata, Asia/Krasnoyarsk, Asia/Kuala_Lumpur, Asia/Kuching, Asia/Kuwait, Asia/Macao, Asia/Macau, Asia/Magadan, Asia/Makassar, Asia/Manila, Asia/Muscat, Asia/Nicosia, Asia/Novokuznetsk, Asia/Novosibirsk, Asia/Omsk, Asia/Oral, Asia/Phnom_Penh, Asia/Pontianak, Asia/Pyongyang, Asia/Qatar, Asia/Qyzylorda, Asia/Rangoon, Asia/Riyadh, Asia/Saigon, Asia/Sakhalin, Asia/Samarkand, Asia/Seoul, Asia/Shanghai, Asia/Singapore, Asia/Srednekolymsk, Asia/Taipei, Asia/Tashkent, Asia/Tbilisi, Asia/Tehran, Asia/Tel_Aviv, Asia/Thimbu, Asia/Thimphu, Asia/Tokyo, Asia/Tomsk, Asia/Ujung_Pandang, Asia/Ulaanbaatar, Asia/Ulan_Bator, Asia/Urumqi, Asia/Ust-Nera, Asia/Vientiane, Asia/Vladivostok, Asia/Yakutsk, Asia/Yangon, Asia/Yekaterinburg, Asia/Yerevan, Atlantic/Azores, Atlantic/Bermuda, Atlantic/Canary, Atlantic/Cape_Verde, Atlantic/Faeroe, Atlantic/Faroe, Atlantic/Jan_Mayen, Atlantic/Madeira, Atlantic/Reykjavik, Atlantic/South_Georgia, Atlantic/St_Helena, Atlantic/Stanley, Australia/ACT, Australia/Adelaide, Australia/Brisbane, Australia/Broken_Hill, Australia/Canberra, Australia/Currie, Australia/Darwin, Australia/Eucla, Australia/Hobart, Australia/LHI, Australia/Lindeman, Australia/Lord_Howe, Australia/Melbourne, Australia/NSW, Australia/North, Australia/Perth, Australia/Queensland, Australia/South, Australia/Sydney, Australia/Tasmania, Australia/Victoria, Australia/West, Australia/Yancowinna, Brazil/Acre, Brazil/DeNoronha, Brazil/East, Brazil/West, CET, CST6CDT, Canada/Atlantic, Canada/Central, Canada/East-Saskatchewan, Canada/Eastern, Canada/Mountain, Canada/Newfoundland, Canada/Pacific, Canada/Saskatchewan, Canada/Yukon, Chile/Continental, Chile/EasterIsland, Cuba, EET, EST, EST5EDT, Egypt, Eire, Etc/GMT, Etc/GMT+0, Etc/GMT+1, Etc/GMT+10, Etc/GMT+11, Etc/GMT+12, Etc/GMT+2, Etc/GMT+3, Etc/GMT+4, Etc/GMT+5, Etc/GMT+6, Etc/GMT+7, Etc/GMT+8, Etc/GMT+9, Etc/GMT-0, Etc/GMT-1, Etc/GMT-10, Etc/GMT-11, Etc/GMT-12, Etc/GMT-13, Etc/GMT-14, Etc/GMT-2, Etc/GMT-3, Etc/GMT-4, Etc/GMT-5, Etc/GMT-6, Etc/GMT-7, Etc/GMT-8, Etc/GMT-9, Etc/GMT0, Etc/Greenwich, Etc/UCT, Etc/UTC, Etc/Universal, Etc/Zulu, Europe/Amsterdam, Europe/Andorra, Europe/Astrakhan, Europe/Athens, Europe/Belfast, Europe/Belgrade, Europe/Berlin, Europe/Bratislava, Europe/Brussels, Europe/Bucharest, Europe/Budapest, Europe/Busingen, Europe/Chisinau, Europe/Copenhagen, Europe/Dublin, Europe/Gibraltar, Europe/Guernsey, Europe/Helsinki, Europe/Isle_of_Man, Europe/Istanbul, Europe/Jersey, Europe/Kaliningrad, Europe/Kiev, Europe/Kirov, Europe/Lisbon, Europe/Ljubljana, Europe/London, Europe/Luxembourg, Europe/Madrid, Europe/Malta, Europe/Mariehamn, Europe/Minsk, Europe/Monaco, Europe/Moscow, Europe/Nicosia, Europe/Oslo, Europe/Paris, Europe/Podgorica, Europe/Prague, Europe/Riga, Europe/Rome, Europe/Samara, Europe/San_Marino, Europe/Sarajevo, Europe/Saratov, Europe/Simferopol, Europe/Skopje, Europe/Sofia, Europe/Stockholm, Europe/Tallinn, Europe/Tirane, Europe/Tiraspol, Europe/Ulyanovsk, Europe/Uzhgorod, Europe/Vaduz, Europe/Vatican, Europe/Vienna, Europe/Vilnius, Europe/Volgograd, Europe/Warsaw, Europe/Zagreb, Europe/Zaporozhye, Europe/Zurich, GB, GB-Eire, GMT, GMT+0, GMT-0, GMT0, Greenwich, HST, Hongkong, Iceland, Indian/Antananarivo, Indian/Chagos, Indian/Christmas, Indian/Cocos, Indian/Comoro, Indian/Kerguelen, Indian/Mahe, Indian/Maldives, Indian/Mauritius, Indian/Mayotte, Indian/Reunion, Iran, Israel, Jamaica, Japan, Kwajalein, Libya, MET, MST, MST7MDT, Mexico/BajaNorte, Mexico/BajaSur, Mexico/General, NZ, NZ-CHAT, Navajo, PRC, PST8PDT, Pacific/Apia, Pacific/Auckland, Pacific/Bougainville, Pacific/Chatham, Pacific/Chuuk, Pacific/Easter, Pacific/Efate, Pacific/Enderbury, Pacific/Fakaofo, Pacific/Fiji, Pacific/Funafuti, Pacific/Galapagos, Pacific/Gambier, Pacific/Guadalcanal, Pacific/Guam, Pacific/Honolulu, Pacific/Johnston, Pacific/Kiritimati, Pacific/Kosrae, Pacific/Kwajalein, Pacific/Majuro, Pacific/Marquesas, Pacific/Midway, Pacific/Nauru, Pacific/Niue, Pacific/Norfolk, Pacific/Noumea, Pacific/Pago_Pago, Pacific/Palau, Pacific/Pitcairn, Pacific/Pohnpei, Pacific/Ponape, Pacific/Port_Moresby, Pacific/Rarotonga, Pacific/Saipan, Pacific/Samoa, Pacific/Tahiti, Pacific/Tarawa, Pacific/Tongatapu, Pacific/Truk, Pacific/Wake, Pacific/Wallis, Pacific/Yap, Poland, Portugal, ROC, ROK, Singapore, Turkey, UCT, US/Alaska, US/Aleutian, US/Arizona, US/Central, US/East-Indiana, US/Eastern, US/Hawaii, US/Indiana-Starke, US/Michigan, US/Mountain, US/Pacific, US/Samoa, UTC, Universal, W-SU, WET, Zulu | (optional) defaults to undefined
+ **unit** | [**string**] | Allowed values: metric, imperial, si | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityDisplayConfigurationResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityHubClaim**
+> HubLinkClaimResponse facilityHubClaim()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityHubClaimRequest = {
+  // string
+  linkCode: linkCode_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityHubClaim(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **linkCode** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**HubLinkClaimResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityHubDelete**
+> facilityHubDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityHubDeleteRequest = {
+  // number
+  facilityHubId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityHubDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityHubId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityHubLinkStatus**
+> FacilityHubLinkStatusResponse facilityHubLinkStatus()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityHubLinkStatusRequest = {
+  // number
+  hubLinkId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityHubLinkStatus(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **hubLinkId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityHubLinkStatusResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityHubList**
+> FacilityHubListResponse facilityHubList()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityHubListRequest = {
+  // boolean (optional)
+  ascending: true,
+  // number (optional)
+  limit: 8.14,
+  // number (optional)
+  offset: 8.14,
+  // string (optional)
+  query: query_example,
+  // string (optional)
+  sort: sort_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityHubList(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **ascending** | [**boolean**] |  | (optional) defaults to false
+ **limit** | [**number**] |  | (optional) defaults to undefined
+ **offset** | [**number**] |  | (optional) defaults to undefined
+ **query** | [**string**] |  | (optional) defaults to undefined
+ **sort** | [**string**] |  | (optional) defaults to 'id'
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityHubListResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityHubUpdate**
+> FacilityHubUpdateResponse facilityHubUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityHubUpdateRequest = {
+  // number
+  facilityHubId: 8.14,
+  // string
+  name: name_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityHubUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityHubId** | [**number**] |  | defaults to undefined
+ **name** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityHubUpdateResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **facilityInBodyIntegrationCreate**
 > FacilityInBodyIntegrationResponse facilityInBodyIntegrationCreate()
 
@@ -5656,32 +6132,32 @@ import * as fs from 'fs';
 const api = new MetricsApi();
 
 let body:MetricsApiFacilityListRequest = {
-  // number (optional)
-  address: 8.14,
+  // string (optional)
+  address: address_example,
   // boolean (optional)
   ascending: true,
-  // number (optional)
-  city: 8.14,
-  // number (optional)
-  country: 8.14,
+  // string (optional)
+  city: city_example,
+  // string (optional)
+  country: country_example,
   // number (optional)
   limit: 8.14,
-  // number (optional)
-  name: 8.14,
+  // string (optional)
+  name: name_example,
   // number (optional)
   offset: 8.14,
   // number (optional)
   page: 8.14,
-  // number (optional)
-  phone: 8.14,
-  // number (optional)
-  postcode: 8.14,
+  // string (optional)
+  phone: phone_example,
+  // string (optional)
+  postcode: postcode_example,
   // number (optional)
   quantity: 8.14,
   // string (optional)
   sort: sort_example,
-  // number (optional)
-  state: 8.14,
+  // string (optional)
+  state: state_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
@@ -5699,25 +6175,220 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **address** | [**number**] |  | (optional) defaults to undefined
+ **address** | [**string**] |  | (optional) defaults to undefined
  **ascending** | [**boolean**] |  | (optional) defaults to true
- **city** | [**number**] |  | (optional) defaults to undefined
- **country** | [**number**] |  | (optional) defaults to undefined
+ **city** | [**string**] |  | (optional) defaults to undefined
+ **country** | [**string**] |  | (optional) defaults to undefined
  **limit** | [**number**] |  | (optional) defaults to undefined
- **name** | [**number**] |  | (optional) defaults to undefined
+ **name** | [**string**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
  **page** | [**number**] |  | (optional) defaults to undefined
- **phone** | [**number**] |  | (optional) defaults to undefined
- **postcode** | [**number**] |  | (optional) defaults to undefined
+ **phone** | [**string**] |  | (optional) defaults to undefined
+ **postcode** | [**string**] |  | (optional) defaults to undefined
  **quantity** | [**number**] |  | (optional) defaults to undefined
  **sort** | [**string**] | Allowed values: id, name | (optional) defaults to 'id'
- **state** | [**number**] |  | (optional) defaults to undefined
+ **state** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
 **FacilityListResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityPinDelete**
+> FacilityRelationshipResponse facilityPinDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityPinDeleteRequest = {
+  // number
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityPinDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **userId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityPinLogin**
+> FacilityPinLoginResponse facilityPinLogin()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityPinLoginRequest = {
+  // string
+  pin: pin_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityPinLogin(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **pin** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityPinLoginResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityPinShow**
+> FacilityRelationshipResponse facilityPinShow()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityPinShowRequest = {
+  // number
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityPinShow(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **userId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityPinUpdate**
+> FacilityRelationshipResponse facilityPinUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityPinUpdateRequest = {
+  // string
+  pin: pin_example,
+  // number
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityPinUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **pin** | [**string**] |  | defaults to undefined
+ **userId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
 
 ### Authorization
 
@@ -6026,7 +6697,7 @@ Name | Type | Description  | Notes
  **memberIdentifier** | [**string**] |  | (optional) defaults to undefined
  **name** | [**string**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
- **sort** | [**string**] | Allowed values: id, name, memberIdentifier, employeeRole | (optional) defaults to 'id'
+ **sort** | [**string**] | Allowed values: id, name, firstName, lastName, memberIdentifier, employeeRole, pinCode | (optional) defaults to 'id'
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
@@ -6180,6 +6851,513 @@ Name | Type | Description  | Notes
  **employeeRole** | [**string**] | Allowed values: admin, customerSupport, trainer, frontDesk, maintenance | (optional) defaults to undefined
  **member** | [**boolean**] |  | (optional) defaults to undefined
  **memberIdentifier** | [**string**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaMemberBulkCreate**
+> NovaMemberBulkCreateResponse facilityRelationshipNovaMemberBulkCreate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaMemberBulkCreateRequest = {
+  // Blob
+  csv: BINARY_DATA_HERE,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaMemberBulkCreate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **csv** | [**Blob**] | CSV file containing nova member rows | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**NovaMemberBulkCreateResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaMemberCreate**
+> FacilityRelationshipResponse facilityRelationshipNovaMemberCreate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaMemberCreateRequest = {
+  // string
+  firstName: firstName_example,
+  // string
+  lastName: lastName_example,
+  // Date (optional)
+  birthday: 2013-10-20T19:20:30+01:00,
+  // string (optional)
+  externalIdentifier: externalIdentifier_example,
+  // string (optional)
+  gender: gender_example,
+  // number (optional)
+  metricHeight: 8.14,
+  // number (optional)
+  metricWeight: 8.14,
+  // string (optional)
+  pinCode: pinCode_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaMemberCreate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **firstName** | [**string**] |  | defaults to undefined
+ **lastName** | [**string**] |  | defaults to undefined
+ **birthday** | [**Date**] |  | (optional) defaults to undefined
+ **externalIdentifier** | [**string**] |  | (optional) defaults to undefined
+ **gender** | [**string**] | Allowed values: m, f, o | (optional) defaults to undefined
+ **metricHeight** | [**number**] |  | (optional) defaults to undefined
+ **metricWeight** | [**number**] |  | (optional) defaults to undefined
+ **pinCode** | [**string**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaMemberDelete**
+> facilityRelationshipNovaMemberDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaMemberDeleteRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaMemberDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaMemberUpdate**
+> FacilityRelationshipResponse facilityRelationshipNovaMemberUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaMemberUpdateRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // Date (optional)
+  birthday: 2013-10-20T19:20:30+01:00,
+  // string (optional)
+  externalIdentifier: externalIdentifier_example,
+  // string (optional)
+  firstName: firstName_example,
+  // string (optional)
+  gender: gender_example,
+  // string (optional)
+  lastName: lastName_example,
+  // number (optional)
+  metricHeight: 8.14,
+  // number (optional)
+  metricWeight: 8.14,
+  // string (optional)
+  pinCode: pinCode_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaMemberUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **birthday** | [**Date**] |  | (optional) defaults to undefined
+ **externalIdentifier** | [**string**] |  | (optional) defaults to undefined
+ **firstName** | [**string**] |  | (optional) defaults to undefined
+ **gender** | [**string**] | Allowed values: m, f, o | (optional) defaults to undefined
+ **lastName** | [**string**] |  | (optional) defaults to undefined
+ **metricHeight** | [**number**] |  | (optional) defaults to undefined
+ **metricWeight** | [**number**] |  | (optional) defaults to undefined
+ **pinCode** | [**string**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaStaffDeactivate**
+> facilityRelationshipNovaStaffDeactivate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaStaffDeactivateRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaStaffDeactivate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaStaffDelete**
+> facilityRelationshipNovaStaffDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaStaffDeleteRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaStaffDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaStaffInvite**
+> FacilityRelationshipNovaStaffInviteResponse facilityRelationshipNovaStaffInvite()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaStaffInviteRequest = {
+  // string
+  email: email_example,
+  // string
+  employeeRole: employeeRole_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaStaffInvite(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **email** | [**string**] |  | defaults to undefined
+ **employeeRole** | [**string**] | Allowed values: admin, customerSupport, trainer, frontDesk, maintenance | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityRelationshipNovaStaffInviteResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaStaffReactivate**
+> facilityRelationshipNovaStaffReactivate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaStaffReactivateRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaStaffReactivate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityRelationshipNovaStaffUpdate**
+> FacilityRelationshipResponse facilityRelationshipNovaStaffUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityRelationshipNovaStaffUpdateRequest = {
+  // number
+  facilityRelationshipId: 8.14,
+  // Date (optional)
+  birthday: 2013-10-20T19:20:30+01:00,
+  // string (optional)
+  employeeRole: employeeRole_example,
+  // string (optional)
+  externalIdentifier: externalIdentifier_example,
+  // string (optional)
+  firstName: firstName_example,
+  // string (optional)
+  gender: gender_example,
+  // string (optional)
+  lastName: lastName_example,
+  // number (optional)
+  metricHeight: 8.14,
+  // number (optional)
+  metricWeight: 8.14,
+  // string (optional)
+  pinCode: pinCode_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityRelationshipNovaStaffUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **facilityRelationshipId** | [**number**] |  | defaults to undefined
+ **birthday** | [**Date**] |  | (optional) defaults to undefined
+ **employeeRole** | [**string**] | Allowed values: admin, customerSupport, trainer, frontDesk, maintenance | (optional) defaults to undefined
+ **externalIdentifier** | [**string**] |  | (optional) defaults to undefined
+ **firstName** | [**string**] |  | (optional) defaults to undefined
+ **gender** | [**string**] | Allowed values: m, f, o | (optional) defaults to undefined
+ **lastName** | [**string**] |  | (optional) defaults to undefined
+ **metricHeight** | [**number**] |  | (optional) defaults to undefined
+ **metricWeight** | [**number**] |  | (optional) defaults to undefined
+ **pinCode** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
@@ -7607,6 +8785,54 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **facilityStrengthMachineBlacklist**
+> facilityStrengthMachineBlacklist()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineBlacklistRequest = {
+  // number
+  id: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineBlacklist(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **facilityStrengthMachineConfigurationShow**
 > FacilityStrengthMachineConfigurationResponse facilityStrengthMachineConfigurationShow()
 
@@ -7774,12 +9000,12 @@ import * as fs from 'fs';
 const api = new MetricsApi();
 
 let body:MetricsApiFacilityStrengthMachineCreateRequest = {
-  // number
-  model: 8.14,
+  // string
+  line: line_example,
+  // string
+  model: model_example,
   // string
   serial: serial_example,
-  // number
-  strengthMachineId: 8.14,
   // string
   version: version_example,
   // string (optional)
@@ -7801,9 +9027,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **model** | [**number**] |  | defaults to undefined
+ **line** | [**string**] |  | defaults to undefined
+ **model** | [**string**] |  | defaults to undefined
  **serial** | [**string**] |  | defaults to undefined
- **strengthMachineId** | [**number**] |  | defaults to undefined
  **version** | [**string**] |  | defaults to undefined
  **location** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
@@ -8029,6 +9255,8 @@ let body:MetricsApiFacilityStrengthMachineListRequest = {
   // number (optional)
   offset: 8.14,
   // string (optional)
+  query: query_example,
+  // string (optional)
   sort: sort_example,
   // string (optional)
   apiVersion: apiVersion_example,
@@ -8051,13 +9279,59 @@ Name | Type | Description  | Notes
  **limit** | [**number**] |  | (optional) defaults to undefined
  **model** | [**number**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
- **sort** | [**string**] | Allowed values: id, model | (optional) defaults to 'model'
+ **query** | [**string**] |  | (optional) defaults to undefined
+ **sort** | [**string**] | Allowed values: id, model, name | (optional) defaults to 'model'
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
 **FacilityStrengthMachineListResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityStrengthMachineMachineStartSession**
+> FacilityStrengthMachineStartSessionResponse facilityStrengthMachineMachineStartSession()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineMachineStartSessionRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineMachineStartSession(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityStrengthMachineStartSessionResponse**
 
 ### Authorization
 
@@ -10355,8 +11629,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **machineAdjustmentCreate**
-> MachineAdjustmentResponse machineAdjustmentCreate()
+# **machineClaimClaim**
+> MachineClaimClaimResponse machineClaimClaim()
 
 
 ### Example
@@ -10368,27 +11642,15 @@ import * as fs from 'fs';
 
 const api = new MetricsApi();
 
-let body:MetricsApiMachineAdjustmentCreateRequest = {
+let body:MetricsApiMachineClaimClaimRequest = {
   // string
-  model: model_example,
-  // string (optional)
-  leftPosition: leftPosition_example,
-  // string (optional)
-  rightPosition: rightPosition_example,
-  // string (optional)
-  seat: seat_example,
-  // string (optional)
-  start: start_example,
-  // string (optional)
-  stop: stop_example,
-  // number (optional)
-  userId: 8.14,
+  claimCode: claimCode_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
 
 try {
-  const data = await api.machineAdjustmentCreate(body);
+  const data = await api.machineClaimClaim(body);
   console.log('API called successfully. Returned data: ' + data);
 } catch (error) {
   console.error(error);
@@ -10400,19 +11662,13 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **model** | [**string**] |  | defaults to undefined
- **leftPosition** | [**string**] |  | (optional) defaults to undefined
- **rightPosition** | [**string**] |  | (optional) defaults to undefined
- **seat** | [**string**] |  | (optional) defaults to undefined
- **start** | [**string**] |  | (optional) defaults to undefined
- **stop** | [**string**] |  | (optional) defaults to undefined
- **userId** | [**number**] |  | (optional) defaults to undefined
+ **claimCode** | [**string**] |  | defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
-**MachineAdjustmentResponse**
+**MachineClaimClaimResponse**
 
 ### Authorization
 
@@ -10421,8 +11677,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **machineAdjustmentDelete**
-> machineAdjustmentDelete()
+# **machineClaimConfirm**
+> MachineClaimConfirmResponse machineClaimConfirm()
 
 
 ### Example
@@ -10434,17 +11690,15 @@ import * as fs from 'fs';
 
 const api = new MetricsApi();
 
-let body:MetricsApiMachineAdjustmentDeleteRequest = {
-  // number
-  id: 8.14,
-  // number (optional)
-  userId: 8.14,
+let body:MetricsApiMachineClaimConfirmRequest = {
+  // string
+  claimAccessCode: claimAccessCode_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
 
 try {
-  const data = await api.machineAdjustmentDelete(body);
+  const data = await api.machineClaimConfirm(body);
   console.log('API called successfully. Returned data: ' + data);
 } catch (error) {
   console.error(error);
@@ -10456,24 +11710,23 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**number**] |  | defaults to undefined
- **userId** | [**number**] |  | (optional) defaults to undefined
+ **claimAccessCode** | [**string**] |  | defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
-void (empty response body)
+**MachineClaimConfirmResponse**
 
 ### Authorization
 
-[bearerAuth](../README.md#bearerAuth)
+No authorization required
 
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **machineAdjustmentList**
-> MachineAdjustmentListResponse machineAdjustmentList()
+# **machineClaimList**
+> MachineClaimListResponse machineClaimList()
 
 
 ### Example
@@ -10485,25 +11738,23 @@ import * as fs from 'fs';
 
 const api = new MetricsApi();
 
-let body:MetricsApiMachineAdjustmentListRequest = {
+let body:MetricsApiMachineClaimListRequest = {
   // boolean (optional)
   ascending: true,
   // number (optional)
   limit: 8.14,
-  // string (optional)
-  model: model_example,
   // number (optional)
   offset: 8.14,
   // string (optional)
   sort: sort_example,
-  // number (optional)
-  userId: 8.14,
+  // string (optional)
+  status: status_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
 
 try {
-  const data = await api.machineAdjustmentList(body);
+  const data = await api.machineClaimList(body);
   console.log('API called successfully. Returned data: ' + data);
 } catch (error) {
   console.error(error);
@@ -10515,18 +11766,17 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ascending** | [**boolean**] |  | (optional) defaults to true
+ **ascending** | [**boolean**] |  | (optional) defaults to false
  **limit** | [**number**] |  | (optional) defaults to undefined
- **model** | [**string**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
- **sort** | [**string**] | Allowed values: id | (optional) defaults to 'id'
- **userId** | [**number**] |  | (optional) defaults to undefined
+ **sort** | [**string**] | Allowed values: id, createdAt | (optional) defaults to 'id'
+ **status** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
-**MachineAdjustmentListResponse**
+**MachineClaimListResponse**
 
 ### Authorization
 
@@ -10535,8 +11785,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **machineAdjustmentShow**
-> MachineAdjustmentResponse machineAdjustmentShow()
+# **machineClaimRegister**
+> MachineClaimRegisterResponse machineClaimRegister()
 
 
 ### Example
@@ -10548,17 +11798,29 @@ import * as fs from 'fs';
 
 const api = new MetricsApi();
 
-let body:MetricsApiMachineAdjustmentShowRequest = {
-  // number
-  id: 8.14,
-  // number (optional)
-  userId: 8.14,
+let body:MetricsApiMachineClaimRegisterRequest = {
+  // string
+  displayUUID: displayUUID_example,
+  // string
+  firmwareVersion: firmwareVersion_example,
+  // string
+  leftCylinderSerial: leftCylinderSerial_example,
+  // string
+  line: line_example,
+  // string
+  machineModel: machineModel_example,
+  // string
+  mainBoardSerial: mainBoardSerial_example,
+  // string
+  softwareVersion: softwareVersion_example,
+  // string (optional)
+  rightCylinderSerial: rightCylinderSerial_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
 
 try {
-  const data = await api.machineAdjustmentShow(body);
+  const data = await api.machineClaimRegister(body);
   console.log('API called successfully. Returned data: ' + data);
 } catch (error) {
   console.error(error);
@@ -10570,24 +11832,30 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**number**] |  | defaults to undefined
- **userId** | [**number**] |  | (optional) defaults to undefined
+ **displayUUID** | [**string**] |  | defaults to undefined
+ **firmwareVersion** | [**string**] |  | defaults to undefined
+ **leftCylinderSerial** | [**string**] |  | defaults to undefined
+ **line** | [**string**] |  | defaults to undefined
+ **machineModel** | [**string**] |  | defaults to undefined
+ **mainBoardSerial** | [**string**] |  | defaults to undefined
+ **softwareVersion** | [**string**] |  | defaults to undefined
+ **rightCylinderSerial** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
-**MachineAdjustmentResponse**
+**MachineClaimRegisterResponse**
 
 ### Authorization
 
-[bearerAuth](../README.md#bearerAuth)
+No authorization required
 
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **machineAdjustmentUpdate**
-> MachineAdjustmentResponse machineAdjustmentUpdate()
+# **machineClaimShow**
+> MachineClaimShowResponse machineClaimShow()
 
 
 ### Example
@@ -10599,27 +11867,15 @@ import * as fs from 'fs';
 
 const api = new MetricsApi();
 
-let body:MetricsApiMachineAdjustmentUpdateRequest = {
+let body:MetricsApiMachineClaimShowRequest = {
   // number
-  id: 8.14,
-  // string (optional)
-  leftPosition: leftPosition_example,
-  // string (optional)
-  rightPosition: rightPosition_example,
-  // string (optional)
-  seat: seat_example,
-  // string (optional)
-  start: start_example,
-  // string (optional)
-  stop: stop_example,
-  // number (optional)
-  userId: 8.14,
+  machineClaimId: 8.14,
   // string (optional)
   apiVersion: apiVersion_example,
 };
 
 try {
-  const data = await api.machineAdjustmentUpdate(body);
+  const data = await api.machineClaimShow(body);
   console.log('API called successfully. Returned data: ' + data);
 } catch (error) {
   console.error(error);
@@ -10631,19 +11887,109 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**number**] |  | defaults to undefined
- **leftPosition** | [**string**] |  | (optional) defaults to undefined
- **rightPosition** | [**string**] |  | (optional) defaults to undefined
- **seat** | [**string**] |  | (optional) defaults to undefined
- **start** | [**string**] |  | (optional) defaults to undefined
- **stop** | [**string**] |  | (optional) defaults to undefined
- **userId** | [**number**] |  | (optional) defaults to undefined
+ **machineClaimId** | [**number**] |  | defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
 ### Return type
 
-**MachineAdjustmentResponse**
+**MachineClaimShowResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **machineClaimStatus**
+> MachineClaimStatusResponse machineClaimStatus()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiMachineClaimStatusRequest = {
+  // string
+  claimAccessCode: claimAccessCode_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.machineClaimStatus(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **claimAccessCode** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**MachineClaimStatusResponse**
+
+### Authorization
+
+No authorization required
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **machineClaimUnclaim**
+> MachineClaimUnclaimResponse machineClaimUnclaim()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiMachineClaimUnclaimRequest = {
+  // number
+  machineClaimId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.machineClaimUnclaim(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **machineClaimId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**MachineClaimUnclaimResponse**
 
 ### Authorization
 
@@ -15744,6 +17090,10 @@ let body:MetricsApiStrengthExerciseVariantListRequest = {
   equipmentMechanicalMovement: equipmentMechanicalMovement_example,
   // number (optional)
   limit: 8.14,
+  // string (optional)
+  line: line_example,
+  // string (optional)
+  machineModel: machineModel_example,
   // number (optional)
   offset: 8.14,
   // string (optional)
@@ -15775,6 +17125,8 @@ Name | Type | Description  | Notes
  **attachment** | [**string**] | Allowed values: bar, rope, singleHandles, doubleHandles, ankleStrap, thighStrap, belt, dip, pullUpBar | (optional) defaults to undefined
  **equipmentMechanicalMovement** | [**string**] | Allowed values: unilateral, bilateral | (optional) defaults to undefined
  **limit** | [**number**] |  | (optional) defaults to undefined
+ **line** | [**string**] |  | (optional) defaults to undefined
+ **machineModel** | [**string**] |  | (optional) defaults to undefined
  **offset** | [**number**] |  | (optional) defaults to undefined
  **sort** | [**string**] | Allowed values: id, variant, attachment, equipmentMechanicalMovement | (optional) defaults to 'id'
  **strengthExerciseId** | [**number**] |  | (optional) defaults to undefined
@@ -16223,6 +17575,57 @@ void (empty response body)
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **strengthMachineDataSetFacilityDelete**
+> strengthMachineDataSetFacilityDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiStrengthMachineDataSetFacilityDeleteRequest = {
+  // number
+  id: 8.14,
+  // number
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.strengthMachineDataSetFacilityDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **userId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **strengthMachineDataSetList**
 > StrengthMachineDataSetListResponse strengthMachineDataSetList()
 
@@ -16335,6 +17738,54 @@ Name | Type | Description  | Notes
 ### Return type
 
 **StrengthMachineDataSetResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **strengthMachineDataSetShowLastSetMetaData**
+> StrengthMachineLastSetMetaDataResponse strengthMachineDataSetShowLastSetMetaData()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiStrengthMachineDataSetShowLastSetMetaDataRequest = {
+  // number
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.strengthMachineDataSetShowLastSetMetaData(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **userId** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**StrengthMachineLastSetMetaDataResponse**
 
 ### Authorization
 
@@ -18152,6 +19603,288 @@ void (empty response body)
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **userSessionDisplayConfigurationCreate**
+> UserSessionDisplayConfigurationResponse userSessionDisplayConfigurationCreate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiUserSessionDisplayConfigurationCreateRequest = {
+  // string
+  dataMode: dataMode_example,
+  // string
+  focusMode: focusMode_example,
+  // string
+  name: name_example,
+  // number (optional)
+  addedMass: 8.14,
+  // number (optional)
+  performanceDropOff: 8.14,
+  // number (optional)
+  secondsDelay: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.userSessionDisplayConfigurationCreate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **dataMode** | [**string**] | Allowed values: power, velocity | defaults to undefined
+ **focusMode** | [**string**] | Allowed values: mean, peak | defaults to undefined
+ **name** | [**string**] |  | defaults to undefined
+ **addedMass** | [**number**] |  | (optional) defaults to undefined
+ **performanceDropOff** | [**number**] |  | (optional) defaults to undefined
+ **secondsDelay** | [**number**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**UserSessionDisplayConfigurationResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **userSessionDisplayConfigurationDelete**
+> userSessionDisplayConfigurationDelete()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiUserSessionDisplayConfigurationDeleteRequest = {
+  // number
+  id: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.userSessionDisplayConfigurationDelete(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **userSessionDisplayConfigurationList**
+> UserSessionDisplayConfigurationListResponse userSessionDisplayConfigurationList()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiUserSessionDisplayConfigurationListRequest = {
+  // boolean (optional)
+  ascending: true,
+  // number (optional)
+  limit: 8.14,
+  // number (optional)
+  offset: 8.14,
+  // string (optional)
+  sort: sort_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.userSessionDisplayConfigurationList(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **ascending** | [**boolean**] |  | (optional) defaults to true
+ **limit** | [**number**] |  | (optional) defaults to undefined
+ **offset** | [**number**] |  | (optional) defaults to undefined
+ **sort** | [**string**] | Allowed values: id, name | (optional) defaults to 'name'
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**UserSessionDisplayConfigurationListResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **userSessionDisplayConfigurationShow**
+> UserSessionDisplayConfigurationResponse userSessionDisplayConfigurationShow()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiUserSessionDisplayConfigurationShowRequest = {
+  // number
+  id: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.userSessionDisplayConfigurationShow(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**UserSessionDisplayConfigurationResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **userSessionDisplayConfigurationUpdate**
+> UserSessionDisplayConfigurationResponse userSessionDisplayConfigurationUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiUserSessionDisplayConfigurationUpdateRequest = {
+  // number
+  id: 8.14,
+  // number (optional)
+  addedMass: 8.14,
+  // string (optional)
+  dataMode: dataMode_example,
+  // string (optional)
+  focusMode: focusMode_example,
+  // string (optional)
+  name: name_example,
+  // number (optional)
+  performanceDropOff: 8.14,
+  // number (optional)
+  secondsDelay: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.userSessionDisplayConfigurationUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **addedMass** | [**number**] |  | (optional) defaults to undefined
+ **dataMode** | [**string**] | Allowed values: power, velocity | (optional) defaults to undefined
+ **focusMode** | [**string**] | Allowed values: mean, peak | (optional) defaults to undefined
+ **name** | [**string**] |  | (optional) defaults to undefined
+ **performanceDropOff** | [**number**] |  | (optional) defaults to undefined
+ **secondsDelay** | [**number**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**UserSessionDisplayConfigurationResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **userShow**
 > UserResponse userShow()
 
@@ -18621,6 +20354,345 @@ Name | Type | Description  | Notes
 ### Return type
 
 **SubscriptionResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetBulkExport**
+> workoutSetBulkExport()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetBulkExportRequest = {
+  // Date
+  from: 2013-10-20T19:20:30+01:00,
+  // Date
+  to: 2013-10-20T19:20:30+01:00,
+  // number (optional)
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.workoutSetBulkExport(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **from** | [**Date**] |  | defaults to undefined
+ **to** | [**Date**] |  | defaults to undefined
+ **userId** | [**number**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetCreate**
+> StrengthMachineDataSetResponse workoutSetCreate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetCreateRequest = {
+  // string
+  clientSetId: clientSetId_example,
+  // number
+  userId: 8.14,
+  // Date
+  startedAt: 2013-10-20T19:20:30+01:00,
+  // Blob
+  workoutSetData: BINARY_DATA_HERE,
+  // string (optional)
+  apiVersion: apiVersion_example,
+  // number (optional)
+  exerciseId: 8.14,
+};
+
+try {
+  const data = await api.workoutSetCreate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **clientSetId** | [**string**] |  | defaults to undefined
+ **userId** | [**number**] |  | defaults to undefined
+ **startedAt** | [**Date**] |  | defaults to undefined
+ **workoutSetData** | [**Blob**] | gzip-compressed JSON (application/gzip) | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+ **exerciseId** | [**number**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**StrengthMachineDataSetResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetExport**
+> workoutSetExport()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetExportRequest = {
+  // number
+  id: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.workoutSetExport(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetList**
+> StrengthMachineDataSetListResponse workoutSetList()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetListRequest = {
+  // boolean (optional)
+  ascending: true,
+  // Date (optional)
+  from: 2013-10-20T19:20:30+01:00,
+  // number (optional)
+  limit: 8.14,
+  // number (optional)
+  offset: 8.14,
+  // string (optional)
+  query: query_example,
+  // string (optional)
+  sort: sort_example,
+  // number (optional)
+  strengthMachineId: 8.14,
+  // Date (optional)
+  to: 2013-10-20T19:20:30+01:00,
+  // number (optional)
+  userId: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.workoutSetList(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **ascending** | [**boolean**] |  | (optional) defaults to false
+ **from** | [**Date**] |  | (optional) defaults to undefined
+ **limit** | [**number**] |  | (optional) defaults to undefined
+ **offset** | [**number**] |  | (optional) defaults to undefined
+ **query** | [**string**] |  | (optional) defaults to undefined
+ **sort** | [**string**] | Allowed values: id, completedAt | (optional) defaults to 'completedAt'
+ **strengthMachineId** | [**number**] |  | (optional) defaults to undefined
+ **to** | [**Date**] |  | (optional) defaults to undefined
+ **userId** | [**number**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**StrengthMachineDataSetListResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetShow**
+> WorkoutSetResponse workoutSetShow()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetShowRequest = {
+  // number
+  id: 8.14,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.workoutSetShow(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**number**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**WorkoutSetResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **workoutSetUpdate**
+> StrengthMachineDataSetResponse workoutSetUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiWorkoutSetUpdateRequest = {
+  // number
+  strengthMachineDataSetId: 8.14,
+  // number
+  userId: 8.14,
+  // Blob
+  workoutSetData: BINARY_DATA_HERE,
+  // string (optional)
+  apiVersion: apiVersion_example,
+  // number (optional)
+  exerciseId: 8.14,
+};
+
+try {
+  const data = await api.workoutSetUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **strengthMachineDataSetId** | [**number**] |  | defaults to undefined
+ **userId** | [**number**] |  | defaults to undefined
+ **workoutSetData** | [**Blob**] | gzip-compressed JSON (application/gzip) | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+ **exerciseId** | [**number**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**StrengthMachineDataSetResponse**
 
 ### Authorization
 

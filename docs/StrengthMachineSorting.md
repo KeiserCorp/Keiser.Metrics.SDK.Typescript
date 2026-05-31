@@ -3,11 +3,11 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `Name` (value: `'name'`)
+* `name` (value: `'name'`)
 
-* `Line` (value: `'line'`)
+* `line` (value: `'line'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

@@ -3,17 +3,17 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `StartedAt` (value: `'startedAt'`)
+* `startedAt` (value: `'startedAt'`)
 
-* `EndedAt` (value: `'endedAt'`)
+* `endedAt` (value: `'endedAt'`)
 
-* `Source` (value: `'source'`)
+* `source` (value: `'source'`)
 
-* `MaxHeartRate` (value: `'maxHeartRate'`)
+* `maxHeartRate` (value: `'maxHeartRate'`)
 
-* `AverageHeartRate` (value: `'averageHeartRate'`)
+* `averageHeartRate` (value: `'averageHeartRate'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

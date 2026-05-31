@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `Name` (value: `'name'`)
+* `name` (value: `'name'`)
 
-* `MemberIdentifier` (value: `'memberIdentifier'`)
+* `memberIdentifier` (value: `'memberIdentifier'`)
 
-* `EmployeeRole` (value: `'employeeRole'`)
+* `employeeRole` (value: `'employeeRole'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

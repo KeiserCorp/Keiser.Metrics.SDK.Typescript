@@ -3,17 +3,17 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `DefaultAlias` (value: `'defaultAlias'`)
+* `defaultAlias` (value: `'defaultAlias'`)
 
-* `Category` (value: `'category'`)
+* `category` (value: `'category'`)
 
-* `Movement` (value: `'movement'`)
+* `movement` (value: `'movement'`)
 
-* `Plane` (value: `'plane'`)
+* `plane` (value: `'plane'`)
 
-* `HumanMovement` (value: `'humanMovement'`)
+* `humanMovement` (value: `'humanMovement'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

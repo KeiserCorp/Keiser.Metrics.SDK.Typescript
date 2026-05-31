@@ -6,6 +6,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **strengthExerciseId** | **number** |  | [optional] [default to undefined]
 **strengthMachineId** | **number** |  | [optional] [default to undefined]
+**machineModel** | **string** |  | [optional] [default to undefined]
+**line** | [**StrengthMachineLine**](StrengthMachineLine.md) |  | [optional] [default to undefined]
 **variant** | [**StrengthExerciseVariantType**](StrengthExerciseVariantType.md) |  | [optional] [default to undefined]
 **attachment** | **string** |  | [optional] [default to undefined]
 **equipmentMechanicalMovement** | **string** |  | [optional] [default to undefined]

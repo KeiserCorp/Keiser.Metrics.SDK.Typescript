@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Uuid` (value: `'uuid'`)
+* `uuid` (value: `'uuid'`)
 
-* `MemberIdentifier` (value: `'memberIdentifier'`)
+* `memberIdentifier` (value: `'memberIdentifier'`)
 
-* `EmailAddress` (value: `'emailAddress'`)
+* `emailAddress` (value: `'emailAddress'`)
 
-* `FullName` (value: `'fullName'`)
+* `fullName` (value: `'fullName'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

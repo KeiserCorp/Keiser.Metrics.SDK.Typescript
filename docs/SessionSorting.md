@@ -3,15 +3,15 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `StartedAt` (value: `'startedAt'`)
+* `startedAt` (value: `'startedAt'`)
 
-* `EndedAt` (value: `'endedAt'`)
+* `endedAt` (value: `'endedAt'`)
 
-* `Name` (value: `'name'`)
+* `name` (value: `'name'`)
 
-* `Open` (value: `'open'`)
+* `open` (value: `'open'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

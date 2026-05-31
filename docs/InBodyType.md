@@ -3,9 +3,9 @@
 ## Enum
 
 
-* `Web` (value: `'web'`)
+* `web` (value: `'web'`)
 
-* `Local` (value: `'local'`)
+* `local` (value: `'local'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

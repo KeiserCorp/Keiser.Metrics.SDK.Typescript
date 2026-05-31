@@ -4,6 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**query** | **string** |  | [optional] [default to undefined]
 **model** | **string** |  | [optional] [default to undefined]
 **source** | **string** |  | [optional] [default to undefined]
 **sort** | [**FacilityStrengthMachineSorting**](FacilityStrengthMachineSorting.md) |  | [default to undefined]

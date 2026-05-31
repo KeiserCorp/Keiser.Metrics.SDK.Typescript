@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **facilityApproval** | **boolean** |  | [default to undefined]
 **member** | **boolean** |  | [default to undefined]
 **memberIdentifier** | **string** |  | [optional] [default to undefined]
+**pinCode** | **string** |  | [optional] [default to undefined]
 **employeeRole** | [**EmployeeRole**](EmployeeRole.md) |  | [optional] [default to undefined]
 **facility** | [**FacilityData**](FacilityData.md) |  | [optional] [default to undefined]
 **user** | [**UserData**](UserData.md) |  | [optional] [default to undefined]
