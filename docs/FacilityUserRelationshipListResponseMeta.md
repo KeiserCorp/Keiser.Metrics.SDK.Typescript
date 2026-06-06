@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **employeeRole** | [**EmployeeRole**](EmployeeRole.md) |  | [optional] [default to undefined]
 **includeSession** | **boolean** |  | [optional] [default to undefined]
 **sort** | [**FacilityUserRelationshipSorting**](FacilityUserRelationshipSorting.md) |  | [default to undefined]
+**deactivated** | **boolean** |  | [optional] [default to undefined]
 **facilityId** | **number** |  | [optional] [default to undefined]
 **ascending** | **boolean** |  | [optional] [default to undefined]
 **limit** | **number** |  | [optional] [default to undefined]

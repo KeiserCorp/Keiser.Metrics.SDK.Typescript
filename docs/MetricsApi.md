@@ -6654,6 +6654,8 @@ let body:MetricsApiFacilityRelationshipFacilityListRequest = {
   // boolean (optional)
   ascending: true,
   // boolean (optional)
+  deactivated: true,
+  // boolean (optional)
   employee: true,
   // string (optional)
   employeeRole: employeeRole_example,
@@ -6689,6 +6691,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ascending** | [**boolean**] |  | (optional) defaults to true
+ **deactivated** | [**boolean**] |  | (optional) defaults to undefined
  **employee** | [**boolean**] |  | (optional) defaults to undefined
  **employeeRole** | [**string**] | Allowed values: admin, customerSupport, trainer, frontDesk, maintenance | (optional) defaults to undefined
  **includeSession** | [**boolean**] |  | (optional) defaults to undefined
