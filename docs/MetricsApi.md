@@ -170,14 +170,18 @@ Method | HTTP request | Description
 [**facilityStrengthMachineInitializerOTP**](MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
 [**facilityStrengthMachineInitializerToken**](MetricsApi.md#facilityStrengthMachineInitializerToken) | **GET** /facility/strength-machine/initializer-token | Show facility strength machine initializer token
 [**facilityStrengthMachineList**](MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines (requires maintenance access)
+[**facilityStrengthMachineMachineReportUpdateResult**](MetricsApi.md#facilityStrengthMachineMachineReportUpdateResult) | **POST** /facility/strength-machine/machine/report-update-result | Report the outcome of a machine software update attempt (skipped or failed)
 [**facilityStrengthMachineMachineStartSession**](MetricsApi.md#facilityStrengthMachineMachineStartSession) | **POST** /facility/strength-machine/machine/start-session | Exchange a machine initialization token for a short-lived machine session token
 [**facilityStrengthMachineMaintenanceRecordCreate**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordCreate) | **POST** /facility/strength-machine/maintenance-record | Create a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordDelete**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordDelete) | **DELETE** /facility/strength-machine/maintenance-record/{id} | Delete a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordList**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordList) | **GET** /facility/strength-machine/maintenance-record/list | List maintenance records for facility strength machines
 [**facilityStrengthMachineMaintenanceRecordShow**](MetricsApi.md#facilityStrengthMachineMaintenanceRecordShow) | **GET** /facility/strength-machine/maintenance-record | Show a maintenance record by for facility strength machine
+[**facilityStrengthMachineRequestSoftwareUpdate**](MetricsApi.md#facilityStrengthMachineRequestSoftwareUpdate) | **POST** /facility/strength-machine/request-software-update | Broadcast a software update command to currently connected machines in the facility
 [**facilityStrengthMachineShow**](MetricsApi.md#facilityStrengthMachineShow) | **GET** /facility/strength-machine | Show a facility strength machine
 [**facilityStrengthMachineSubscribe**](MetricsApi.md#facilityStrengthMachineSubscribe) | **GET** /facilityStrengthMachine/subscribe | Subscribe to changes to facility strength machine
+[**facilityStrengthMachineSubscribeToFacilityGlobalRoom**](MetricsApi.md#facilityStrengthMachineSubscribeToFacilityGlobalRoom) | **GET** /facility/strength-machine/subscribe-to-global-facility | Subscribe a machine session connection to the facility global room
 [**facilityStrengthMachineUpdate**](MetricsApi.md#facilityStrengthMachineUpdate) | **PUT** /facility/strength-machine/{id} | Update a facility strength machine
+[**facilityStrengthMachineUpdateSoftwareMetadata**](MetricsApi.md#facilityStrengthMachineUpdateSoftwareMetadata) | **POST** /facility/strength-machine/machine/update-software-metadata | Update the software metadata of a machine
 [**facilityStrengthMachineUtilizationInstanceList**](MetricsApi.md#facilityStrengthMachineUtilizationInstanceList) | **GET** /facility/strength-machine/utilization-instance/list | List facility strength machine utilization instances
 [**facilityStrengthMachineUtilizationInstanceShow**](MetricsApi.md#facilityStrengthMachineUtilizationInstanceShow) | **GET** /facility/strength-machine/utilization-instance | Show facility strength machine utilization instance
 [**facilitySubscribe**](MetricsApi.md#facilitySubscribe) | **GET** /facility/subscribe | Subscribe to changes to a facility
@@ -9298,6 +9302,57 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **facilityStrengthMachineMachineReportUpdateResult**
+> FacilityStrengthMachineResponse facilityStrengthMachineMachineReportUpdateResult()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineMachineReportUpdateResultRequest = {
+  // string
+  reason: reason_example,
+  // string
+  resultType: resultType_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineMachineReportUpdateResult(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **reason** | [**string**] |  | defaults to undefined
+ **resultType** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityStrengthMachineResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **facilityStrengthMachineMachineStartSession**
 > FacilityStrengthMachineStartSessionResponse facilityStrengthMachineMachineStartSession()
 
@@ -9562,6 +9617,51 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **facilityStrengthMachineRequestSoftwareUpdate**
+> facilityStrengthMachineRequestSoftwareUpdate()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineRequestSoftwareUpdateRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineRequestSoftwareUpdate(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **facilityStrengthMachineShow**
 > FacilityStrengthMachineResponse facilityStrengthMachineShow()
 
@@ -9658,6 +9758,51 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **facilityStrengthMachineSubscribeToFacilityGlobalRoom**
+> facilityStrengthMachineSubscribeToFacilityGlobalRoom()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineSubscribeToFacilityGlobalRoomRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineSubscribeToFacilityGlobalRoom(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **facilityStrengthMachineUpdate**
 > FacilityStrengthMachineResponse facilityStrengthMachineUpdate()
 
@@ -9701,6 +9846,57 @@ Name | Type | Description  | Notes
 ### Return type
 
 **FacilityStrengthMachineResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityStrengthMachineUpdateSoftwareMetadata**
+> facilityStrengthMachineUpdateSoftwareMetadata()
+
+
+### Example
+
+
+```typescript
+import { MetricsApi } from '@keiser/metrics-sdk-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsApi();
+
+let body:MetricsApiFacilityStrengthMachineUpdateSoftwareMetadataRequest = {
+  // string
+  buildNumber: buildNumber_example,
+  // string
+  softwareVersion: softwareVersion_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityStrengthMachineUpdateSoftwareMetadata(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **buildNumber** | [**string**] |  | defaults to undefined
+ **softwareVersion** | [**string**] |  | defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+void (empty response body)
 
 ### Authorization
 

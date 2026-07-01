@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-typescript@5.4.9
+## @keiser/metrics-sdk-typescript@5.5.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-typescript@5.4.9 --save
+npm install @keiser/metrics-sdk-typescript@5.5.0 --save
 ```
 
 
@@ -225,14 +225,18 @@ Method | HTTP request | Description
 [**facilityStrengthMachineInitializerOTP**](docs/MetricsApi.md#facilityStrengthMachineInitializerOTP) | **GET** /facility/strength-machine/initializer-otp | Show facility strength machine initializer token
 [**facilityStrengthMachineInitializerToken**](docs/MetricsApi.md#facilityStrengthMachineInitializerToken) | **GET** /facility/strength-machine/initializer-token | Show facility strength machine initializer token
 [**facilityStrengthMachineList**](docs/MetricsApi.md#facilityStrengthMachineList) | **GET** /facility/strength-machine/list | List facility strength machines (requires maintenance access)
+[**facilityStrengthMachineMachineReportUpdateResult**](docs/MetricsApi.md#facilityStrengthMachineMachineReportUpdateResult) | **POST** /facility/strength-machine/machine/report-update-result | Report the outcome of a machine software update attempt (skipped or failed)
 [**facilityStrengthMachineMachineStartSession**](docs/MetricsApi.md#facilityStrengthMachineMachineStartSession) | **POST** /facility/strength-machine/machine/start-session | Exchange a machine initialization token for a short-lived machine session token
 [**facilityStrengthMachineMaintenanceRecordCreate**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordCreate) | **POST** /facility/strength-machine/maintenance-record | Create a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordDelete**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordDelete) | **DELETE** /facility/strength-machine/maintenance-record/{id} | Delete a maintenance record for facility strength machine
 [**facilityStrengthMachineMaintenanceRecordList**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordList) | **GET** /facility/strength-machine/maintenance-record/list | List maintenance records for facility strength machines
 [**facilityStrengthMachineMaintenanceRecordShow**](docs/MetricsApi.md#facilityStrengthMachineMaintenanceRecordShow) | **GET** /facility/strength-machine/maintenance-record | Show a maintenance record by for facility strength machine
+[**facilityStrengthMachineRequestSoftwareUpdate**](docs/MetricsApi.md#facilityStrengthMachineRequestSoftwareUpdate) | **POST** /facility/strength-machine/request-software-update | Broadcast a software update command to currently connected machines in the facility
 [**facilityStrengthMachineShow**](docs/MetricsApi.md#facilityStrengthMachineShow) | **GET** /facility/strength-machine | Show a facility strength machine
 [**facilityStrengthMachineSubscribe**](docs/MetricsApi.md#facilityStrengthMachineSubscribe) | **GET** /facilityStrengthMachine/subscribe | Subscribe to changes to facility strength machine
+[**facilityStrengthMachineSubscribeToFacilityGlobalRoom**](docs/MetricsApi.md#facilityStrengthMachineSubscribeToFacilityGlobalRoom) | **GET** /facility/strength-machine/subscribe-to-global-facility | Subscribe a machine session connection to the facility global room
 [**facilityStrengthMachineUpdate**](docs/MetricsApi.md#facilityStrengthMachineUpdate) | **PUT** /facility/strength-machine/{id} | Update a facility strength machine
+[**facilityStrengthMachineUpdateSoftwareMetadata**](docs/MetricsApi.md#facilityStrengthMachineUpdateSoftwareMetadata) | **POST** /facility/strength-machine/machine/update-software-metadata | Update the software metadata of a machine
 [**facilityStrengthMachineUtilizationInstanceList**](docs/MetricsApi.md#facilityStrengthMachineUtilizationInstanceList) | **GET** /facility/strength-machine/utilization-instance/list | List facility strength machine utilization instances
 [**facilityStrengthMachineUtilizationInstanceShow**](docs/MetricsApi.md#facilityStrengthMachineUtilizationInstanceShow) | **GET** /facility/strength-machine/utilization-instance | Show facility strength machine utilization instance
 [**facilitySubscribe**](docs/MetricsApi.md#facilitySubscribe) | **GET** /facility/subscribe | Subscribe to changes to a facility
