@@ -20585,6 +20585,14 @@ let body:MetricsApiWorkoutSetBulkExportRequest = {
   from: 2013-10-20T19:20:30+01:00,
   // Date
   to: 2013-10-20T19:20:30+01:00,
+  // boolean (optional)
+  formatTimestamps: true,
+  // boolean (optional)
+  includeTimeSeries: true,
+  // string (optional)
+  repColumns: repColumns_example,
+  // string (optional)
+  timeSeriesColumns: timeSeriesColumns_example,
   // number (optional)
   userId: 8.14,
   // string (optional)
@@ -20606,6 +20614,10 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **from** | [**Date**] |  | defaults to undefined
  **to** | [**Date**] |  | defaults to undefined
+ **formatTimestamps** | [**boolean**] |  | (optional) defaults to undefined
+ **includeTimeSeries** | [**boolean**] |  | (optional) defaults to undefined
+ **repColumns** | [**string**] | Allowed values: userId, name, modelNumber, setNumber, exerciseName, completedAt, dataMode, dropOff, rep, resistance, resistanceUserUnits, torque, torqueUserUnits, side, startSinceEpoch, endSinceEpoch, peakPower, meanPower, peakVelocity, meanVelocity, rom, isAbovePeakDropOff, isAboveMeanDropOff, sixRepTest, sixRepTestUserUnits, sixRepTestTorque, sixRepTestTorqueUserUnits, externalId | (optional) defaults to undefined
+ **timeSeriesColumns** | [**string**] | Allowed values: userId, name, modelNumber, exerciseName, setNumber, epochTime, lPosition, rPosition, lPower, rPower, lForce, lForceUserUnits, lForceTorque, lForceTorqueUserUnits, rForce, rForceUserUnits, rForceTorque, rForceTorqueUserUnits, lVelocity, rVelocity, lAcceleration, rAcceleration, lAccelerationOfMass, rAccelerationOfMass, lArmWeight, rArmWeight, lRawPower, rRawPower, externalId | (optional) defaults to undefined
  **userId** | [**number**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
@@ -20697,6 +20709,14 @@ const api = new MetricsApi();
 let body:MetricsApiWorkoutSetExportRequest = {
   // number
   id: 8.14,
+  // boolean (optional)
+  formatTimestamps: true,
+  // boolean (optional)
+  includeTimeSeries: true,
+  // string (optional)
+  repColumns: repColumns_example,
+  // string (optional)
+  timeSeriesColumns: timeSeriesColumns_example,
   // string (optional)
   apiVersion: apiVersion_example,
 };
@@ -20715,6 +20735,10 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**number**] |  | defaults to undefined
+ **formatTimestamps** | [**boolean**] |  | (optional) defaults to undefined
+ **includeTimeSeries** | [**boolean**] |  | (optional) defaults to undefined
+ **repColumns** | [**string**] | Allowed values: userId, name, modelNumber, setNumber, exerciseName, completedAt, dataMode, dropOff, rep, resistance, resistanceUserUnits, torque, torqueUserUnits, side, startSinceEpoch, endSinceEpoch, peakPower, meanPower, peakVelocity, meanVelocity, rom, isAbovePeakDropOff, isAboveMeanDropOff, sixRepTest, sixRepTestUserUnits, sixRepTestTorque, sixRepTestTorqueUserUnits, externalId | (optional) defaults to undefined
+ **timeSeriesColumns** | [**string**] | Allowed values: userId, name, modelNumber, exerciseName, setNumber, epochTime, lPosition, rPosition, lPower, rPower, lForce, lForceUserUnits, lForceTorque, lForceTorqueUserUnits, rForce, rForceUserUnits, rForceTorque, rForceTorqueUserUnits, lVelocity, rVelocity, lAcceleration, rAcceleration, lAccelerationOfMass, rAccelerationOfMass, lArmWeight, rArmWeight, lRawPower, rRawPower, externalId | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
