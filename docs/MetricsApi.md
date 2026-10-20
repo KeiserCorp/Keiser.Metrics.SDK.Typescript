@@ -9368,6 +9368,8 @@ const api = new MetricsApi();
 
 let body:MetricsApiFacilityStrengthMachineMachineStartSessionRequest = {
   // string (optional)
+  wireguardIp: wireguardIp_example,
+  // string (optional)
   apiVersion: apiVersion_example,
 };
 
@@ -9384,6 +9386,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+ **wireguardIp** | [**string**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
